@@ -45,6 +45,21 @@ python run_demo.py --tweet "HELP HACKED!! my email is alex92@gmail.com and passw
 python run_demo.py --preset 3
 ```
 
+### Option D: Local Open-Source Models via Ollama (Zero API Keys Required)
+If you have **Ollama** installed, you can run the entire agent with local open models (`llama3.2`, `llama3`, `mistral`, `gemma2`) with zero external API dependencies:
+```bash
+# 1. Start your local Ollama model
+ollama run llama3.2
+
+# 2. Enable in .env (or set environment variable)
+# LLM_PROVIDER=ollama
+# OLLAMA_MODEL=llama3.2
+# OLLAMA_HOST=http://localhost:11434
+
+# 3. Test with local Ollama
+python run_demo.py --tweet "My iPhone X screen turned green and cracked after dropping it"
+```
+
 ---
 
 ## ⚡ Quickstart: Reproduce Headline Results in < 5 Minutes

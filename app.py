@@ -294,7 +294,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 <body>
   <div class="container">
     <header>
-      <div class="logo-badge"> Apple Support AI Agent</div>
+      <div class="logo-badge"> Apple Support AI Agent • Multi-Engine (Gemini / Ollama / Local)</div>
       <h1>Interactive Testing Console</h1>
       <p class="subtitle">Test arbitrary customer tweets with real-time Intent Classification, Explainable Triage Escalation, and Grounded Reply Drafting.</p>
     </header>
@@ -492,3 +492,4 @@ def start_server():
 
 if __name__ == "__main__":
     start_server()
+

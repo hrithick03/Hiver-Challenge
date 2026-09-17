@@ -104,7 +104,10 @@ class IntentClassifier:
         """
         Classifies incoming customer text into one of the 6 canonical intents.
         """
-        if not self.llm.api_key or GeminiClient._quota_exhausted:
+        has_llm = bool(self.llm.api_key and not GeminiClient._quota_exhausted) or (
+            self.llm.provider == "ollama" or (self.llm.provider == "auto" and self.llm._is_ollama_available())
+        )
+        if not has_llm:
             return self._heuristic_classify(text)
 
         prompt = FEW_SHOT_PROMPT_TEMPLATE.format(text=text)

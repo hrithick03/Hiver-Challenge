@@ -22,6 +22,8 @@ from config import (
     CACHE_DIR,
     DEFAULT_GEMINI_MODEL,
     FALLBACK_GEMINI_MODEL,
+    DEFAULT_OLLAMA_HOST,
+    DEFAULT_OLLAMA_MODEL,
     MAX_OUTPUT_TOKENS,
 )
 
@@ -33,17 +35,35 @@ CACHE_FILE = CACHE_DIR / "llm_cache.json"
 
 class GeminiClient:
     _quota_exhausted: bool = False
+    _ollama_checked: bool = False
+    _ollama_active: bool = False
 
     def __init__(
         self,
         api_key: Optional[str] = None,
         model_name: Optional[str] = None,
+        provider: Optional[str] = None,
+        ollama_host: Optional[str] = None,
+        ollama_model: Optional[str] = None,
         use_cache: bool = True,
     ):
         self.api_key = api_key if api_key is not None else os.getenv("GEMINI_API_KEY", "").strip()
         self.model_name = model_name or os.getenv("GEMINI_MODEL", DEFAULT_GEMINI_MODEL)
+        self.provider = (provider or os.getenv("LLM_PROVIDER", "auto")).lower()
+        self.ollama_host = (ollama_host or os.getenv("OLLAMA_HOST", DEFAULT_OLLAMA_HOST)).rstrip("/")
+        self.ollama_model = ollama_model or os.getenv("OLLAMA_MODEL", DEFAULT_OLLAMA_MODEL)
         self.use_cache = use_cache
         self.cache: Dict[str, str] = self._load_cache()
+
+    def _is_ollama_available(self) -> bool:
+        if not GeminiClient._ollama_checked:
+            GeminiClient._ollama_checked = True
+            try:
+                r = requests.get(f"{self.ollama_host}/api/tags", timeout=1.0)
+                GeminiClient._ollama_active = (r.status_code == 200)
+            except Exception:
+                GeminiClient._ollama_active = False
+        return GeminiClient._ollama_active
 
     def _load_cache(self) -> Dict[str, str]:
         if self.use_cache and CACHE_FILE.exists():
@@ -64,8 +84,27 @@ class GeminiClient:
             logger.warning(f"Failed to save cache: {e}")
 
     def _cache_key(self, prompt: str, system_prompt: Optional[str], model: str) -> str:
-        combined = f"{model}::{system_prompt or ''}::{prompt}"
+        combined = f"{self.provider}::{model}::{system_prompt or ''}::{prompt}"
         return hashlib.sha256(combined.encode("utf-8")).hexdigest()
+
+    def _generate_ollama(
+        self,
+        prompt: str,
+        system_prompt: Optional[str] = None,
+        temperature: float = 0.0,
+    ) -> str:
+        url = f"{self.ollama_host}/api/generate"
+        payload = {
+            "model": self.ollama_model,
+            "prompt": prompt,
+            "system": system_prompt or "",
+            "stream": False,
+            "options": {"temperature": temperature},
+        }
+        resp = requests.post(url, json=payload, timeout=30)
+        if resp.status_code == 200:
+            return resp.json().get("response", "").strip()
+        raise RuntimeError(f"Ollama API Error {resp.status_code}: {resp.text}")
 
     def generate(
         self,
@@ -86,9 +125,26 @@ class GeminiClient:
         if self.use_cache and cache_key in self.cache:
             return self.cache[cache_key]
 
+        # Route to Ollama if explicitly configured or running locally
+        use_ollama = (self.provider == "ollama") or (
+            self.provider == "auto" and not self.api_key and self._is_ollama_available()
+        )
+        if use_ollama:
+            try:
+                text = self._generate_ollama(prompt, system_prompt, temperature)
+                if self.use_cache:
+                    self.cache[cache_key] = text
+                    self._save_cache()
+                return text
+            except Exception as e:
+                logger.warning(f"Ollama generation failed ({e}).")
+                raise
+
+        # Route to Gemini API
         if not self.api_key:
             raise ValueError(
-                "GEMINI_API_KEY is not set. Please set GEMINI_API_KEY in your .env file or environment, "
+                "GEMINI_API_KEY is not set and Ollama is not active. "
+                "Please configure GEMINI_API_KEY, start Ollama (LLM_PROVIDER=ollama), "
                 "or run in pre-cached benchmark mode."
             )
 
