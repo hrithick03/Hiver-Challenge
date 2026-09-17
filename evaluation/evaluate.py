@@ -270,26 +270,22 @@ if __name__ == "__main__":
         sys.stdout.reconfigure(encoding="utf-8")
 
     parser = argparse.ArgumentParser(description="Apple Support Agent Headline Benchmark")
-    parser.add_argument("--sample", type=int, default=None, help="Run on a small subsample of examples")
-    parser.add_argument("--cached", action="store_true", help="Load cached results for instant (<15s) reproduction")
-    parser.add_argument("--sample", type=int, default=None, help="Run on a small subsample of examples (e.g. 15)")
-    parser.add_argument("--live", action="store_true", help="Run live inference instead of instant cached results")
-    parser.add_argument("--full", action="store_true", help="Run live inference on full 200 examples")
-    parser.add_argument("--cached", action="store_true", help="Load cached results for instant (<5s) reproduction")
+    parser.add_argument("--sample", type=int, default=None, help="Run live evaluation on N subsampled examples (e.g. 15)")
+    parser.add_argument("--live", action="store_true", help="Run live evaluation instead of instant cached results")
+    parser.add_argument("--full", action="store_true", help="Run live evaluation on all 200 examples")
+    parser.add_argument("--cached", action="store_true", help="Load cached results for instant (<2s) reproduction")
     args = parser.parse_args()
 
-    run_benchmark(sample_limit=args.sample, use_cached_results=args.cached)
     # Default behavior:
     # If no flags are passed, or --cached is passed, load instant cached results!
-    # If --live is passed without --sample or --full, default to a quick 15-sample test.
-    # If --full is passed, run all 200 examples with multi-threading.
+    # If --live is passed without --sample, default to a quick 15-sample run.
+    # If --full is passed, run live on all 200 examples.
     if args.full:
         run_benchmark(sample_limit=None, use_cached_results=False)
-    elif args.live:
-        sample_size = args.sample or 15
-        run_benchmark(sample_limit=sample_size, use_cached_results=False)
     elif args.sample:
         run_benchmark(sample_limit=args.sample, use_cached_results=False)
+    elif args.live:
+        run_benchmark(sample_limit=15, use_cached_results=False)
     else:
-        # Default fast path: instant cached reproduction!
+        # Default fast path: instant cached reproduction (< 2s)
         run_benchmark(sample_limit=None, use_cached_results=True)

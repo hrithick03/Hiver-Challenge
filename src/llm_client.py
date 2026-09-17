@@ -179,8 +179,7 @@ class GeminiClient:
         last_error = None
         for attempt in range(max_retries):
             try:
-                response = requests.post(url, headers=headers, json=body, timeout=45)
-                response = requests.post(url, headers=headers, json=body, timeout=12)
+                response = requests.post(url, headers=headers, json=body, timeout=20)
                 if response.status_code == 200:
                     data = response.json()
                     candidates = data.get("candidates", [])
@@ -193,12 +192,17 @@ class GeminiClient:
                                 self._save_cache()
                             return text
                     raise ValueError(f"Empty candidate response from Gemini: {data}")
-                elif response.status_code in [429, 500, 503]:
+                elif response.status_code == 429:
+                    err_text = response.text
+                    if "RESOURCE_EXHAUSTED" in err_text or "quota" in err_text.lower():
+                        GeminiClient._quota_exhausted = True
+                        logger.warning("Gemini daily quota exhausted (429 RESOURCE_EXHAUSTED). Switching to local fallback pipeline.")
+                        raise RuntimeError("Gemini daily quota exhausted (429 RESOURCE_EXHAUSTED).")
+                    time.sleep(2.0 * (attempt + 1))
+                    last_error = f"HTTP 429: {err_text}"
+                elif response.status_code in [500, 503]:
                     time.sleep(1.5 * (attempt + 1))
                     last_error = f"HTTP {response.status_code}: {response.text}"
-                elif response.status_code == 429:
-                    GeminiClient._quota_exhausted = True
-                    raise RuntimeError("Gemini API rate/quota limit reached (429). Switching immediately to fast local pipeline.")
                 else:
                     # If model not found or forbidden, try fallback model
                     if target_model != FALLBACK_GEMINI_MODEL:

@@ -77,8 +77,8 @@ class EscalationReason(str, Enum):
     NONE = "Standard troubleshooting or public information query suitable for automated resolution"
 
 # LLM Configuration
-DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
-FALLBACK_GEMINI_MODEL = "gemini-3.5-flash-lite"
+DEFAULT_GEMINI_MODEL = "gemini-3.5-flash-lite"
+FALLBACK_GEMINI_MODEL = "gemini-3.1-flash-lite"
 
 # Ollama (Local / Self-Hosted Open-Source Models)
 DEFAULT_OLLAMA_HOST = "http://localhost:11434"
