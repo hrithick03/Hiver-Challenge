@@ -6,6 +6,47 @@ Features **multi-class intent classification**, **historical RAG-grounded reply 
 
 ---
 
+## 🎮 How to Test with Your Own Questions
+
+You can test the agent with any custom customer support tweet or scenario using either the **Interactive Web UI** or the **CLI Console**:
+
+### Option A: Interactive Web UI (Recommended)
+Launch the Apple-inspired web interface:
+```bash
+python app.py
+```
+This starts the local web server and opens **`http://localhost:8000`** in your browser.
+- Type or paste **any customer query**
+- Use **1-click quick test presets** (Battery drain, shattered screens, unauthorized charges, PII traps, sarcastic rants)
+- View real-time **Intent Classification**, **Triage Escalation Decision & Reason**, **Retrieved Historical Grounding Cards**, and the **Official Grounded Draft Reply** with a 1-click copy button.
+
+### Option B: Interactive Terminal Chat
+Launch the interactive REPL console in your terminal:
+```bash
+python run_demo.py --interactive
+```
+
+### Option C: Single-Command CLI Test
+Pass any tweet directly from the command line:
+```bash
+# Test a technical troubleshooting query (Auto-Handled)
+python run_demo.py --tweet "Ever since updating to iOS 11.1, my keyboard lag is unbearable. Characters appear 3 seconds after typing."
+
+# Test a physical damage case (Escalates to Genius Bar / Human)
+python run_demo.py --tweet "Dropped my iPhone X on concrete and the front screen is completely shattered with green flickering lines"
+
+# Test an unauthorized charge (Escalates to Billing Specialist)
+python run_demo.py --tweet "Apple charged my credit card $79.99 for an in-app purchase I never authorized! I demand a refund"
+
+# Test a security / PII trap (Critical Privacy Escalation)
+python run_demo.py --tweet "HELP HACKED!! my email is alex92@gmail.com and password was changed by someone else, unlock my account now!!"
+
+# Run built-in preset stress tests (1 to 6)
+python run_demo.py --preset 3
+```
+
+---
+
 ## ⚡ Quickstart: Reproduce Headline Results in < 5 Minutes
 
 ### 1. Installation (Under 2 Minutes)
@@ -17,39 +58,28 @@ cd d:\Hiver
 pip install -r requirements.txt
 ```
 
-### 2. Instant Headline Benchmark Reproduction (< 30 Seconds)
-To verify the headline benchmark numbers immediately without needing an API key:
+### 2. Instant Headline Benchmark Reproduction (< 2 Seconds)
+To verify the headline benchmark numbers immediately without API delays:
 ```bash
-python evaluation/evaluate.py --cached
-```
-
-### 3. Run Live Benchmark Evaluation
-To re-run inference live across all 200 Golden Evaluation examples:
-```bash
-# (Optional) Set your Gemini API Key in .env if you wish to use live LLM reasoning:
-# GEMINI_API_KEY=your_key_here
-
-# Run live benchmark across all 200 examples
 python evaluation/evaluate.py
 ```
+*(Runs instant cached benchmark and outputs full comparative table across all 200 Golden Examples).*
 
-### 4. Verify Human-Judge Calibration
-To verify the statistical agreement between the automated Judge and human evaluations (Cohen's Kappa, Pearson Correlation):
+### 3. Run Live Benchmark Evaluation on a Subsample
+To test live inference across a representative subsample with real-time multi-threading:
+```bash
+python evaluation/evaluate.py --live --sample 15
+```
+
+### 4. Verify Human-Judge Calibration (Cohen's Kappa = 0.70)
+To verify statistical agreement between the automated Judge and human evaluations:
 ```bash
 python evaluation/human_calibration.py
 ```
 
-### 5. Run the Interactive CLI Demo
-Test arbitrary customer tweets or run curated edge cases live:
+### 5. Run the Automated Test Suite (13 Tests in ~1.5s)
 ```bash
-# Test a custom tweet
-python run_demo.py --tweet "Dropped my iPhone X on concrete and the front screen is completely shattered with green flickering lines"
-
-# Run curated preset edge cases (1 to 6)
-python run_demo.py --preset 3
-
-# Launch interactive chat console
-python run_demo.py --interactive
+python -m pytest tests/ -v
 ```
 
 ---

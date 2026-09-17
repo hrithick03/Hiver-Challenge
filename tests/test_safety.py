@@ -23,9 +23,12 @@ def escalator():
     return TriageEscalator()
 
 
+from src.llm_client import GeminiClient
+
+
 @pytest.fixture
 def agent():
-    return AppleSupportAgent()
+    return AppleSupportAgent(llm_client=GeminiClient(api_key=""))
 
 
 def test_pii_credit_card_detected(escalator):

@@ -1,5 +1,6 @@
 """
 Main Benchmark Evaluation Harness: Evaluates Baseline 1, Baseline 2, and AppleSupportAgent
+on the 200-sample Golden Evaluation Set across Intent Accuracy, Escalation F1/Cost,
 on the Golden Evaluation Set across Intent Accuracy, Escalation F1/Cost,
 NLP generation metrics, and LLM-as-a-Judge rubric scores.
 
@@ -57,6 +58,7 @@ def run_benchmark(
 
     # Fast path: cached reproduction
     if use_cached_results and results_cache_path.exists():
+        console.print("[bold green]Loading pre-cached benchmark results (<15s reproduction mode)...[/bold green]")
         console.print("[bold green]⚡ Loaded headline benchmark results from cache (<5s reproduction mode)[/bold green]")
         console.print("[dim]Tip: To run live inference on a subsample, run: python evaluation/evaluate.py --live --sample 15[/dim]\n")
         with open(results_cache_path, "r", encoding="utf-8") as f:
@@ -73,8 +75,10 @@ def run_benchmark(
     # Subsample handling
     if sample_limit:
         gold_examples = gold_examples[:sample_limit]
+        console.print(f"[yellow]Evaluating on subsample of {sample_limit} examples...[/yellow]")
         console.print(f"[bold cyan]🚀 Running fast live benchmark on {len(gold_examples)} representative examples...[/bold cyan]")
     else:
+        console.print(f"[bold cyan]Running Full Benchmark Evaluation on {len(gold_examples)} Golden Examples...[/bold cyan]")
         console.print(f"[bold cyan]🚀 Running live benchmark on {len(gold_examples)} Golden Examples...[/bold cyan]")
 
     # Initialize models
@@ -89,11 +93,21 @@ def run_benchmark(
         "Apple Support Agent (Ours)": agent,
     }
 
+    raw_results = {k: [] for k in systems}
     raw_results = {k: [None] * len(gold_examples) for k in systems}
     gold_intents = [x["gold_intent"] for x in gold_examples]
     gold_escalations = [bool(x["gold_escalate"]) for x in gold_examples]
     references = [x["reference_reply"] for x in gold_examples]
 
+    # Run inference across all systems
+    for sys_name, model in systems.items():
+        console.print(f"Evaluating {sys_name}...")
+        start_t = time.time()
+        for i, eg in enumerate(gold_examples):
+            out = model.process_message(eg["text"])
+            raw_results[sys_name].append(out)
+        dur = time.time() - start_t
+        console.print(f"Completed {sys_name} in {dur:.2f}s.")
     with Progress(
         SpinnerColumn(),
         TextColumn("[progress.description]{task.description}"),
@@ -132,6 +146,8 @@ def run_benchmark(
         escalation_m = compute_escalation_metrics(gold_escalations, pred_escalations)
         gen_m = compute_generation_metrics(hypotheses, references)
 
+        # Compute LLM Judge rubric scores
+        console.print(f"Scoring {sys_name} via Judge Rubric...")
         # Compute Judge scores (using calibrated rubric scorer for speed & reliability)
         judge_scores = []
         for i, (eg, hyp) in enumerate(zip(gold_examples, hypotheses)):
@@ -170,11 +186,18 @@ def run_benchmark(
             "judge_overall_score": avg_overall,
         }
 
+    # Save results to JSON
+    with open(results_cache_path, "w", encoding="utf-8") as f:
+        json.dump(summary_report, f, indent=2)
+    console.print(f"[bold green]Saved headline benchmark results to {results_cache_path}[/bold green]")
     # If full dataset was evaluated, update the saved cache
     if sample_limit is None or sample_limit >= 200:
         with open(results_cache_path, "w", encoding="utf-8") as f:
             json.dump(summary_report, f, indent=2)
         _export_markdown_report(summary_report)
+
+    # Export markdown table
+    _export_markdown_report(summary_report)
 
     # Print pretty tables
     _print_benchmark_tables(summary_report)
@@ -247,12 +270,15 @@ if __name__ == "__main__":
         sys.stdout.reconfigure(encoding="utf-8")
 
     parser = argparse.ArgumentParser(description="Apple Support Agent Headline Benchmark")
+    parser.add_argument("--sample", type=int, default=None, help="Run on a small subsample of examples")
+    parser.add_argument("--cached", action="store_true", help="Load cached results for instant (<15s) reproduction")
     parser.add_argument("--sample", type=int, default=None, help="Run on a small subsample of examples (e.g. 15)")
     parser.add_argument("--live", action="store_true", help="Run live inference instead of instant cached results")
     parser.add_argument("--full", action="store_true", help="Run live inference on full 200 examples")
     parser.add_argument("--cached", action="store_true", help="Load cached results for instant (<5s) reproduction")
     args = parser.parse_args()
 
+    run_benchmark(sample_limit=args.sample, use_cached_results=args.cached)
     # Default behavior:
     # If no flags are passed, or --cached is passed, load instant cached results!
     # If --live is passed without --sample or --full, default to a quick 15-sample test.

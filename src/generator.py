@@ -104,7 +104,7 @@ class ReplyGenerator:
         """
         Drafts a grounded customer support reply.
         """
-        if not self.llm.api_key and not self.llm.use_cache:
+        if not self.llm.api_key or GeminiClient._quota_exhausted:
             return self._fallback_generate(customer_query, intent, triage_info, retrieved_hits)
 
         retrieved_text = self._format_retrieved(retrieved_hits)

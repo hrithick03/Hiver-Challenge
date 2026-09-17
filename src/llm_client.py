@@ -40,7 +40,7 @@ class GeminiClient:
         model_name: Optional[str] = None,
         use_cache: bool = True,
     ):
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY", "").strip()
+        self.api_key = api_key if api_key is not None else os.getenv("GEMINI_API_KEY", "").strip()
         self.model_name = model_name or os.getenv("GEMINI_MODEL", DEFAULT_GEMINI_MODEL)
         self.use_cache = use_cache
         self.cache: Dict[str, str] = self._load_cache()
@@ -97,6 +97,11 @@ class GeminiClient:
 
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{target_model}:generateContent?key={self.api_key}"
 
+        contents = []
+        if system_prompt:
+            # System instruction in Gemini REST API
+            pass
+
         body: Dict[str, Any] = {
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {
@@ -110,12 +115,15 @@ class GeminiClient:
 
         if response_json_schema:
             body["generationConfig"]["responseMimeType"] = "application/json"
+            # Some Gemini endpoints support responseSchema directly
+            # We enforce JSON mode via responseMimeType
 
         headers = {"Content-Type": "application/json"}
 
         last_error = None
         for attempt in range(max_retries):
             try:
+                response = requests.post(url, headers=headers, json=body, timeout=45)
                 response = requests.post(url, headers=headers, json=body, timeout=12)
                 if response.status_code == 200:
                     data = response.json()
@@ -129,17 +137,28 @@ class GeminiClient:
                                 self._save_cache()
                             return text
                     raise ValueError(f"Empty candidate response from Gemini: {data}")
+                elif response.status_code in [429, 500, 503]:
+                    time.sleep(1.5 * (attempt + 1))
+                    last_error = f"HTTP {response.status_code}: {response.text}"
                 elif response.status_code == 429:
-                    # Check if daily quota exhausted
-                    if "RESOURCE_EXHAUSTED" in response.text or "QuotaFailure" in response.text:
-                        GeminiClient._quota_exhausted = True
-                        raise RuntimeError("Gemini Free Tier daily quota limit reached (20 requests/day). Switching immediately to fast local pipeline.")
-                    time.sleep(1.0)
-                    last_error = f"HTTP 429: {response.text}"
+                    GeminiClient._quota_exhausted = True
+                    raise RuntimeError("Gemini API rate/quota limit reached (429). Switching immediately to fast local pipeline.")
                 else:
+                    # If model not found or forbidden, try fallback model
+                    if target_model != FALLBACK_GEMINI_MODEL:
+                        logger.info(f"Retrying with fallback model {FALLBACK_GEMINI_MODEL}...")
+                        return self.generate(
+                            prompt=prompt,
+                            system_prompt=system_prompt,
+                            temperature=temperature,
+                            response_json_schema=response_json_schema,
+                            model_name=FALLBACK_GEMINI_MODEL,
+                            max_retries=1,
+                        )
                     raise RuntimeError(f"Gemini API Error {response.status_code}: {response.text}")
             except requests.RequestException as e:
                 last_error = str(e)
+                time.sleep(1.5 * (attempt + 1))
                 time.sleep(1.0)
 
         raise RuntimeError(f"Failed to generate after {max_retries} attempts: {last_error}")

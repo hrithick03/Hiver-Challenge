@@ -18,9 +18,12 @@ from src.triage_escalator import TriageEscalator
 from src.baselines import TrivialBaseline, SimpleBaseline
 
 
+from src.llm_client import GeminiClient
+
+
 @pytest.fixture
 def agent():
-    return AppleSupportAgent()
+    return AppleSupportAgent(llm_client=GeminiClient(api_key=""))
 
 
 @pytest.fixture
@@ -89,7 +92,7 @@ def test_agent_end_to_end_pipeline(agent):
 
 def test_baselines_contract():
     b1 = TrivialBaseline()
-    b2 = SimpleBaseline()
+    b2 = SimpleBaseline(llm_client=GeminiClient(api_key=""))
 
     sample = "Screen cracked after drop"
     out1 = b1.process_message(sample)

@@ -104,7 +104,7 @@ class IntentClassifier:
         """
         Classifies incoming customer text into one of the 6 canonical intents.
         """
-        if not self.llm.api_key and not self.llm.use_cache:
+        if not self.llm.api_key or GeminiClient._quota_exhausted:
             return self._heuristic_classify(text)
 
         prompt = FEW_SHOT_PROMPT_TEMPLATE.format(text=text)
