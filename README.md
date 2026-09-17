@@ -154,3 +154,4 @@ For the complete technical report covering:
 6. **Decision Log:** 12 non-obvious engineering decisions and why
 
 Please refer to the comprehensive document: [`REPORT.md`](file:///d:/Hiver/REPORT.md).
+

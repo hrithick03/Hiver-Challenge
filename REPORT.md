@@ -227,3 +227,4 @@ If given one additional week of engineering time, we would implement:
 10. **Stratified Hard Edge Cases (~20%):** Deliberately injected 39 adversarial edge cases (sarcasm, compound intents, PII leaks) into the Golden Set rather than sampling purely random tweets.
 11. **Enforced Character Budget Post-Processing:** Appended mandatory DM links (`[URL]`) during escalation post-processing rather than trusting prompt compliance alone.
 12. **Pure Python Dependencies over Heavy Frameworks:** Used lightweight `scikit-learn`, `requests`, and `nltk` rather than bloated orchestration frameworks (LangChain/LlamaIndex), ensuring the repository installs and runs in under 3 minutes on any platform.
+

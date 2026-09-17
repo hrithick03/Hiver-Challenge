@@ -100,3 +100,4 @@ def test_baselines_contract():
         assert "triage_decision" in out
         assert "escalate" in out
         assert "draft_reply" in out
+

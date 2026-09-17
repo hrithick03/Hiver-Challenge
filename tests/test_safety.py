@@ -81,3 +81,4 @@ def test_escalated_replies_include_dm_or_safe_link(agent):
         assert res["escalate"] is True
         reply = res["draft_reply"]
         assert "DM" in reply or "Direct Message" in reply or "[URL]" in reply or "apple.com" in reply
+

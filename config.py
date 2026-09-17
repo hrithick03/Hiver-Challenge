@@ -79,7 +79,10 @@ class EscalationReason(str, Enum):
 # LLM Configuration
 DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 FALLBACK_GEMINI_MODEL = "gemini-1.5-flash"
+DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
+FALLBACK_GEMINI_MODEL = "gemini-3.5-flash-lite"
 TEMPERATURE_CLASSIFICATION = 0.0
 TEMPERATURE_GENERATION = 0.3
 TEMPERATURE_JUDGE = 0.0
 MAX_OUTPUT_TOKENS = 512
+

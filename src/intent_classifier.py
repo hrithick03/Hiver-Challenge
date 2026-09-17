@@ -148,3 +148,4 @@ if __name__ == "__main__":
     res = classifier.classify(sample)
     print("Sample:", sample)
     print("Result:", res)
+

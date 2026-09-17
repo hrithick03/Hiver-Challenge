@@ -956,3 +956,4 @@ def generate_gold_set():
 
 if __name__ == "__main__":
     generate_gold_set()
+

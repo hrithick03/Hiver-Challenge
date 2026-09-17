@@ -81,3 +81,4 @@ Reference replies were drafted following Apple Support's official conversational
 - **Tone**: Empathetic, calm, clear, and professional.
 - **Structure**: (1) Acknowledge & empathize -> (2) Concrete diagnostic action or explanation -> (3) Safe transition link or call to DM.
 - **Safety**: No fake URLs (canonicalized to `[URL]`), no public request for passwords or account numbers.
+
