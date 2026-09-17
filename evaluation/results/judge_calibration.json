@@ -1,0 +1,23 @@
+{
+  "sample_size": 40,
+  "cohen_kappa": 0.7,
+  "pearson_correlation": 0.8113,
+  "spearman_correlation": 0.7868,
+  "mean_absolute_error": 0.9313,
+  "root_mean_squared_error": 1.1422,
+  "percentage_agreement": 85.0,
+  "confusion_matrix_labels": [
+    "ACCEPTABLE",
+    "SUBSTANDARD"
+  ],
+  "confusion_matrix": [
+    [
+      20,
+      0
+    ],
+    [
+      6,
+      14
+    ]
+  ]
+}

@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 699,
+    "intent": "software_update_glitch",
+    "customer_query": "The newest update. I️ made sure to download it yesterday.",
+    "historical_resolution": "Lets take a closer look into this issue. Select the following link to join us in a DM and we'll go from there. [URL]"
+  },
+  {
+    "id": 701,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Tried resetting my settings .. restarting my phone .. all that",
+    "historical_resolution": "Let's go to DM for the next steps. DM us here: [URL]"
+  },
+  {
+    "id": 703,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "This is what it looks like [URL]",
+    "historical_resolution": "Any steps tried since it started last night?"
+  },
+  {
+    "id": 705,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I️ have an iPhone 7 Plus and yes I️ do",
+    "historical_resolution": "That's great it has iOS 11.1 as we can rule out being outdated. Any steps tried since this started? Do you recall when it started?"
+  },
+  {
+    "id": 708,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I️ need answers because it’s annoying 🙃",
+    "historical_resolution": "We'd like to look into this with you. Which model do you have and is iOS 11.1 installed? Any steps tried so far?"
+  },
+  {
+    "id": 712,
+    "intent": "software_update_glitch",
+    "customer_query": "Hey and anyone else who upgraded to ios11.1, are y’all having issues with capital “I️” in the Mail app? As it puts in “A”?",
+    "historical_resolution": "Hey, let's work together to figure out what's going on. Meet us in DM and we'll continue from there. [URL]"
+  },
+  {
+    "id": 716,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "This is what is happening... [URL]",
+    "historical_resolution": "We'd like to investigate further with you. Send us a DM and we can troubleshoot more from there. [URL]"
+  },
+  {
+    "id": 720,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "are the call centres closed for the night?",
+    "historical_resolution": "We've received your DM and will continue there."
+  },
+  {
+    "id": 722,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "hello are all the lines closed for tonight #help",
+    "historical_resolution": "What's going on? We're hapy to help if we can. [URL]"
+  },
+  {
+    "id": 724,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I️ upgraded. I️t didn’t work.",
+    "historical_resolution": "Reach out to us via DM, and we can take a look at this with you. [URL]"
+  },
+  {
+    "id": 729,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hello, internet. Can someone explain why this symbol keeps appearing on my phone and when I️ try to type the letter I️? Also [URL]",
+    "historical_resolution": "You're in the right place; we'll do all we can to help. To start, let us know what iOS version is installed via DM: [URL]"
+  },
+  {
+    "id": 732,
+    "intent": "physical_damage_repair",
+    "customer_query": "I’ve got a screenshot saying my #iPhoneX is reserved for the 3rd then an email saying it’s the 18th... what happened?",
+    "historical_resolution": "Go ahead and send us a DM please. Let us know the country you're in."
+  },
+  {
+    "id": 734,
+    "intent": "software_update_glitch",
+    "customer_query": "Thank you I updated my phone and now it is even slower and barely works. Thank you for ruining my phone.😤",
+    "historical_resolution": "We'd like to help, but we'll need more details. What's happening on your device and which model is it? Do you have iOS 11.1?"
+  },
+  {
+    "id": 737,
+    "intent": "software_update_glitch",
+    "customer_query": "I have the iPhone 6s Plus and just did the most recent update.",
+    "historical_resolution": "To make sure, is iOS 11.1 installed on it currently? Also, any steps tried so far? DM us here: [URL]"
+  },
+  {
+    "id": 738,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "iPhone 7 Plus 😊",
+    "historical_resolution": "Thanks! Which iOS version is currently showing in Settings > General > About?"
+  },
+  {
+    "id": 743,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Okey. Thank you! 🤗",
+    "historical_resolution": "Our pleasure. If you're still having issues after a back up and update, contact us back. We're happy to help."
+  },
+  {
+    "id": 744,
+    "intent": "battery_power_hardware",
+    "customer_query": "I need the software update urgently. The battery lasts literally half a day 🙍🏼🙁",
+    "historical_resolution": "Hi there! What type of device are we working with?"
+  },
+  {
+    "id": 746,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hola necesito urgente la actualización de software. La batería me dura literal medio día 🙍🏼🙇🏼‍♀️",
+    "historical_resolution": "We offer support via Twitter in English. Get help in Spanish here: [URL] or join [URL]"
+  },
+  {
+    "id": 748,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hi! What is going on? Has Youtube lost it? What can be done about it? Thanks for the support! [URL]",
+    "historical_resolution": "We want to help! DM us and let us know more about the issues you are having. [URL]"
+  },
+  {
+    "id": 753,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yes it did, 11.0.3",
+    "historical_resolution": "We've just released iOS 11.1. We suggest backing up & updating. Then, test the issue again. Here's how: [URL]"
+  },
+  {
+    "id": 755,
+    "intent": "software_update_glitch",
+    "customer_query": "MY HOME BUTTON DOESN’T WORK #IOS11",
+    "historical_resolution": "Let us help with your Home button. Did this issue start right after iOS 11? Which version of iOS 11 are you running?"
+  },
+  {
+    "id": 759,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I can not find an option to get it there. It was just always there when playing.",
+    "historical_resolution": "DM us the specific iOS version you are running currently and we'll continue there. [URL]"
+  },
+  {
+    "id": 761,
+    "intent": "physical_damage_repair",
+    "customer_query": "The app is still there. But no longer able to control it from the lockscreen.",
+    "historical_resolution": "Just to confirm, this is only happening with Spotify, correct?"
+  },
+  {
+    "id": 764,
+    "intent": "software_update_glitch",
+    "customer_query": "After update #ios1103 no spotify on my lock screen?",
+    "historical_resolution": "Thanks for reaching out to us. Are you experiencing the missing app after restating your device?"
+  },
+  {
+    "id": 1756,
+    "intent": "software_update_glitch",
+    "customer_query": "I️ just updated it and it’s still coming up [URL]",
+    "historical_resolution": "Let's dig into this further with you. DM us and we'll continue there."
+  },
+  {
+    "id": 1758,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Why is “I️” keep changing to this and how do I️ stop it🤦🏽‍♀️ #anybody [URL]",
+    "historical_resolution": "We definitely understand your concern. Please backup your iPhone, update and let us know the result: [URL]"
+  },
+  {
+    "id": 1762,
+    "intent": "account_security_icloud",
+    "customer_query": "Hello, I need some help regarding the region change on my Apple ID",
+    "historical_resolution": "This article should help with that: [URL]"
+  },
+  {
+    "id": 1765,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Thanks, thing is I still have like 81 cents in credit and won't let me do that until I have zero credit",
+    "historical_resolution": "Try contacting our iTunes Store team here for more help: [URL]"
+  },
+  {
+    "id": 1767,
+    "intent": "account_security_icloud",
+    "customer_query": "it has, but not for some time now. i’ve tried with two different apple ids but it’s still not showing up on my phone",
+    "historical_resolution": "Thanks for clarifying. Let's meet in DM so we can do more in-depth on this. [URL]"
+  },
+  {
+    "id": 1769,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why is my home sharing not working and how do i fix it",
+    "historical_resolution": "We're happy to help. Has Home Sharing worked with these devices before?"
+  },
+  {
+    "id": 1771,
+    "intent": "software_update_glitch",
+    "customer_query": "I just get a white screen and nothing loads. After a short time, it just closes/crashes. Thanks for the reply.",
+    "historical_resolution": "Which model do you have and is iOS 11.1 installed on it? Any steps tried so far?"
+  },
+  {
+    "id": 1774,
+    "intent": "software_update_glitch",
+    "customer_query": "iPhone 6, yes ios11. Checked for updates, none available. I’ve swiped up to close the app several times and I’ve restarted it 2x",
+    "historical_resolution": "To make sure, is iOS 11.1 showing here: Settings > General > About > Version? Please DM us the answer here: [URL]"
+  },
+  {
+    "id": 1777,
+    "intent": "battery_power_hardware",
+    "customer_query": "Battery life just got worst.",
+    "historical_resolution": "We'll make sure to get this straightened out. DM us, and we'll see you there. [URL]"
+  },
+  {
+    "id": 1780,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why can’t I change ringer volume with the buttons? Whose dumb idea was it to change that and how do they still have a job?",
+    "historical_resolution": "Let us look into that. What device and OS version are you using?"
+  },
+  {
+    "id": 1784,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "epıl bana yardımcı olur musun telefon internet konusunda çok yakıyo napcaz ?",
+    "historical_resolution": "We offer support via Twitter in English. Contact us for help in your preferred language here: [URL]"
+  },
+  {
+    "id": 1788,
+    "intent": "software_update_glitch",
+    "customer_query": "No I had 11.0.3 but now it says 11.1 update so ima go ahead and do that",
+    "historical_resolution": "Please keep us posted afterwards."
+  },
+  {
+    "id": 1790,
+    "intent": "software_update_glitch",
+    "customer_query": "why won’t my apps fuccin download or update",
+    "historical_resolution": "Apps are important and we want you to get back to enjoying them. Which model do you have? Is iOS 11.1 installed on it?"
+  },
+  {
+    "id": 2609,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "$100 billion says that solves my problem? I’m on 11.0.3 currently. Hold please.",
+    "historical_resolution": "Let us know and we'll continue from there. [URL]"
+  },
+  {
+    "id": 2611,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Cupertino, we have a problem. . . . . [URL]",
+    "historical_resolution": "We'd like to see what we can do to assist. What version of iOS are you currently running? We released iOS 11.1 today."
+  },
+  {
+    "id": 2614,
+    "intent": "battery_power_hardware",
+    "customer_query": "why is my battery life short? I updated to 11.1, my battery is poor. Wife didn’t she likes her battery life",
+    "historical_resolution": "Let’s work together on this situation. To clarify, did this start after updating to iOS 11.1? Also, which device are you using?"
+  },
+  {
+    "id": 2617,
+    "intent": "software_update_glitch",
+    "customer_query": "Yes, after the update. I Phone 7",
+    "historical_resolution": "Got it. Does this happen while using any particular App or feature? Let us know via a DM. We’ll keep moving forward from there. [URL]"
+  },
+  {
+    "id": 2618,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "watchOs4 made my watch pointless Browsing music on my phone via the watch was 80% reason for buying it now it’s useless.",
+    "historical_resolution": "You should still be able to control Music on your iPhone from the watch. Check out the user guide here: [URL]"
+  },
+  {
+    "id": 2621,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "But this does not show the music stored on my phone like it did in os3. I do not want to store music on my phone.",
+    "historical_resolution": "We certainly want to take a closer look into this issue. Select the following link to join us in a DM and we'll go from there. [URL]"
+  },
+  {
+    "id": 2629,
+    "intent": "software_update_glitch",
+    "customer_query": "iOS 11.1 it’s been getting worse for a few months now",
+    "historical_resolution": "Please meet with us in DM. We'd like to gather some additional details from you. [URL]"
+  },
+  {
+    "id": 2630,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "And why is my music NEVER in my control center?!",
+    "historical_resolution": "We're here to help out! Which device is this on and which version of iOS is currently installed?"
+  },
+  {
+    "id": 2633,
+    "intent": "software_update_glitch",
+    "customer_query": "iPhone 7+, iOS 11.1",
+    "historical_resolution": "Thank you very much! Send us a DM to let us know if your speaker doesn't work on calls, or if other apps are affected as well. [URL]"
+  },
+  {
+    "id": 2636,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "...cost for sending in for diagnosing a problem if it's out of warranty?",
+    "historical_resolution": "We can help. Let’s start with the following steps to see if we can save you a trip in for service: [URL]"
+  },
+  {
+    "id": 2639,
+    "intent": "battery_power_hardware",
+    "customer_query": "Hi, I plugged an adapter straight into the transformer and it still didn't charger. The charger LED does not light up either.",
+    "historical_resolution": "We certainly want to take a closer look into this. Select the following link to join us in a DM and we'll go from there. [URL]"
+  },
+  {
+    "id": 2641,
+    "intent": "software_update_glitch",
+    "customer_query": "still no reliable Bluetooth on my iPhone 8+.",
+    "historical_resolution": "Thanks for reaching out. DM which Bluetooth device you are trying to connect to so we can help. [URL]"
+  },
+  {
+    "id": 2646,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "When you roll the month, it does not appear and hangs",
+    "historical_resolution": "We'd like to take a closer look at this. DM us and we'll go from there. [URL]"
+  },
+  {
+    "id": 2647,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "do you have any apps for epilepsy so I can detect my seizures thanks in advance",
+    "historical_resolution": "Hey, we can provide some guidance. Let's meet in DM and we'll go from there. [URL]"
+  },
+  {
+    "id": 2653,
+    "intent": "software_update_glitch",
+    "customer_query": "newest version of iOS and iPhone 7",
+    "historical_resolution": "Since we just released iOS 11.1 today, can you clarify which exact version you have installed?"
+  },
+  {
+    "id": 2655,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "My iPhone has erased and re-added emails dating back from 2013 til now twice in the past 24 hours. Wth???",
+    "historical_resolution": "We'll be happy to look into this with you. To clarify, which iPhone model do you have and what's the exact iOS version?"
+  },
+  {
+    "id": 2661,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "So why is this happening I️ I️ I️",
+    "historical_resolution": "We'd be glad to see what we can do for you. Let's meet up in DM first. Thanks! [URL]"
+  },
+  {
+    "id": 2664,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I keep getting this error message saying “the item can’t be played” and idk how to fix it...",
+    "historical_resolution": "We'd like to look into this with you. Does the song appear to be greyed out?"
+  },
+  {
+    "id": 2669,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "^^check this out",
+    "historical_resolution": "Send us a DM please and we will go from there. [URL]"
+  },
+  {
+    "id": 2675,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "HELP ME. I have a problem with my iPhone 7😑",
+    "historical_resolution": "We're happy to help. What seems to be the problem?"
+  },
+  {
+    "id": 2677,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Any idea why icons show up like this? I did force reset to no avail. After initial notification display, they show up. [URL]",
+    "historical_resolution": "We're here for you. DM us, and we'll look into this together. [URL]"
+  },
+  {
+    "id": 2679,
+    "intent": "software_update_glitch",
+    "customer_query": "It’s sorted. Thanks. iOS update needed a change and hard reboot",
+    "historical_resolution": "We're glad to hear that's sorted out for you. Have a great day."
+  },
+  {
+    "id": 2681,
+    "intent": "software_update_glitch",
+    "customer_query": "ios 11.0.3 on 6s. Cannot adjust alarm volume so waking up all in my house and neighbours despite ringer being set to minimum!",
+    "historical_resolution": "We'd love to help with your alarm volume. Is the option to \"Change with Buttons\" disabled under Settings > Sounds?"
+  },
+  {
+    "id": 2683,
+    "intent": "software_update_glitch",
+    "customer_query": "live photo keeps turning on in the camera even when it’s set to stay off. Please fix in next update.",
+    "historical_resolution": "Hey, we can work together to figure out a solution. Send us a DM and we'll continue from there. [URL]"
+  },
+  {
+    "id": 3760,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Listen I’m having issues with my phone so like can you @ me so we can talk",
+    "historical_resolution": "We're here to help. Send us a DM with the issue and we'll follow up from there. [URL]"
+  },
+  {
+    "id": 3762,
+    "intent": "physical_damage_repair",
+    "customer_query": "not only does my phone keep freezing but when i screenshot things it turns out white... really not liking this iphone 8 plus",
+    "historical_resolution": "Let's look at this together. Are you updated to iOS 11.1?"
+  },
+  {
+    "id": 3765,
+    "intent": "software_update_glitch",
+    "customer_query": "11.1?? when did that come out lol, i talked to you guys last night and you asked if i was updated to 11.0.3 which i am lol",
+    "historical_resolution": "It was released earlier today. Let's use these steps to update iOS: [URL]"
+  },
+  {
+    "id": 3766,
+    "intent": "battery_power_hardware",
+    "customer_query": "I’m no expert in battery life but 40% doesn’t go to 7% in 5minutes",
+    "historical_resolution": "We understand your concerns, and want to help. Which device is this happening on?"
+  },
+  {
+    "id": 3768,
+    "intent": "software_update_glitch",
+    "customer_query": "this is my top bar every time I open messages on my SE after updating to iOS 11.1 [URL]",
+    "historical_resolution": "Thank you for reaching out to us. Have you tried to restart the device? Let us know to get started."
+  },
+  {
+    "id": 3771,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "That fixed it thanks",
+    "historical_resolution": "That's great! Enjoy the rest of your day."
+  },
+  {
+    "id": 3772,
+    "intent": "software_update_glitch",
+    "customer_query": "iOS 11.1 - keyboard lag. 🤨 [URL]",
+    "historical_resolution": "We'd like to take a look into that with you. Would you please join us in DM to get started? [URL]"
+  },
+  {
+    "id": 3775,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I've also forced the app to close from the background and reopened, no dice 🎲",
+    "historical_resolution": "Let’s team up on this. How long has this been happening? What version number of iOS are you running? Which iPhone do you have?"
+  },
+  {
+    "id": 3778,
+    "intent": "software_update_glitch",
+    "customer_query": "still happening, including on iOS 11.2 beta now. any ideas?",
+    "historical_resolution": "Thanks for the update. Go ahead and send us a DM and we'll take it from there. [URL]"
+  },
+  {
+    "id": 4869,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Really considering getting a new kind of phone since my iPhone dies with 90% while using my camera 😤",
+    "historical_resolution": "We want to help! What model of iOS device are you using? Do you have the most recent version of iOS 11.1 downloaded?"
+  },
+  {
+    "id": 4872,
+    "intent": "software_update_glitch",
+    "customer_query": "iPhone 6 and yes it’s got the latest software update",
+    "historical_resolution": "Thanks for letting us know. We'd like to take a further look into this. Please send us a DM, and we'll continue there. [URL]"
+  },
+  {
+    "id": 4873,
+    "intent": "software_update_glitch",
+    "customer_query": "Come on #ios11.1 Same bug as before. Numbers disappear when entering info. Video below. #iosproblems [URL]",
+    "historical_resolution": "Let's investigate this together. Does this only occur when using specific apps or website?"
+  },
+  {
+    "id": 4876,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Restarting does resolve the issue. Thanks.",
+    "historical_resolution": "We're glad to hear that resolved the issue. Don't hesitate to reach out to us if you have any questions. Take care."
+  },
+  {
+    "id": 4878,
+    "intent": "software_update_glitch",
+    "customer_query": "I can’t download songs. Progress icon keeps spinning. On both data + WiFi. Stream works though. Can’t add songs to playlists. [URL]",
+    "historical_resolution": "We want to help. Does restarting help at all? DM us which iOS version you're on and we'll continue support there. [URL]"
+  },
+  {
+    "id": 4880,
+    "intent": "software_update_glitch",
+    "customer_query": "tell me why I️’I’ve updated my phone twice and I️ can’t type letter I️ without getting a letter A and a question mark",
+    "historical_resolution": "We're here for you. What is the exact version of the iOS you're running? Check by tapping Settings > General > About."
+  },
+  {
+    "id": 4887,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "whenever I try to see the photos that I’ve just taken my #iphone6 shows me this. I’ve reset it, I’ve restored it... help? [URL]",
+    "historical_resolution": "We know how important it is to be able to view your photos. Are you able to see older photos on your iPhone?"
+  },
+  {
+    "id": 4891,
+    "intent": "physical_damage_repair",
+    "customer_query": "And the new ones tauntingly pretend they are saved- it’s just when I click on them or try to send them that the grey screen shows",
+    "historical_resolution": "We appreciate those details. For more help with Photos, please reach out to our Photos experts here: [URL]"
+  },
+  {
+    "id": 4894,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "please make this stop!!! [URL]",
+    "historical_resolution": "Let’s work together on this behavior. How long has this been happening? Also, which device are you using?"
+  },
+  {
+    "id": 4898,
+    "intent": "software_update_glitch",
+    "customer_query": "AFTER I️ updated my phone.",
+    "historical_resolution": "Does that continue after restarting your iPhone? Do you have any other iOS devices or a Mac computer? Let us know in DM. [URL]"
+  },
+  {
+    "id": 4899,
+    "intent": "battery_power_hardware",
+    "customer_query": "Please fix the battery issues in Ios 11!",
+    "historical_resolution": "We want to make sure you have a working battery. Have you had a chance to update to the latest 11.1?"
+  },
+  {
+    "id": 4902,
+    "intent": "battery_power_hardware",
+    "customer_query": "I have and my battery life has become even worse",
+    "historical_resolution": "Let's look into this further in DM. [URL]"
+  },
+  {
+    "id": 4904,
+    "intent": "software_update_glitch",
+    "customer_query": "The ‘Overlapping url over TIME on Free WiFi hotspots’ remains. v11.0.3. Not a WiFi problem; two different hotspots shown. [URL]",
+    "historical_resolution": "We'd like to have you backup and update your iPhone to iOS 11.1 and let us know if that helps: [URL]"
+  },
+  {
+    "id": 4907,
+    "intent": "software_update_glitch",
+    "customer_query": "I've updated to iOS 11.1 just now. I shall check out these WiFi hotspots tomorrow and later in the week.",
+    "historical_resolution": "Sounds good. Let us know the results in DM and we'll continue working with you there. Thanks again. [URL]"
+  },
+  {
+    "id": 4908,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "コレは本当に困る、ゲームも出来なくなったしアップデートしなきゃ良かった´д` ; → 「バッテリーの減りが激しい」という問題に関しても同様）。 [URL]",
+    "historical_resolution": "We offer support via Twitter in English. Contact us for help in your preferred language here: [URL]."
+  },
+  {
+    "id": 4910,
+    "intent": "battery_power_hardware",
+    "customer_query": "Series1 #Applewatch would consistently get 18 hrs + per charge prior to last update. Now 12-13 hrs max.Died @ gym 2nite. Wtf ?",
+    "historical_resolution": "We want your Apple Watch to keep up with you at the gym. To begin, which watchOS is installed?"
+  },
+  {
+    "id": 4916,
+    "intent": "general_feedback_inquiry",
+    "customer_query": ". why my iPhone keep dying at 30% quit playing games I'm not getting no new damn phone or iPhone x",
+    "historical_resolution": "We'd like to help. What iOS version are you on?"
+  },
+  {
+    "id": 5811,
+    "intent": "software_update_glitch",
+    "customer_query": "just updated my 7 plus to 11.1 but I can’t see the new emojis on my watch. Pls help.",
+    "historical_resolution": "Got it. Have you updated your Apple Watch to 4.1 yet?"
+  },
+  {
+    "id": 5815,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I️ <— wtf is going on",
+    "historical_resolution": "We'd be happy to look into this with you more in detail. Please reach out to us via DM and we'll get started. [URL]"
+  },
+  {
+    "id": 5817,
+    "intent": "physical_damage_repair",
+    "customer_query": "I can’t change lock screen anymore from ‘wallpaper’ in settings. How do I do it now?",
+    "historical_resolution": "We'd be happy to help. Check out this link to for more information: [URL]"
+  },
+  {
+    "id": 5820,
+    "intent": "software_update_glitch",
+    "customer_query": "Dear this new update sucks ,I have too many problems with my phone now ! Blurry screen , black screen , frozen phone !",
+    "historical_resolution": "Getting the expected performance from your iPhone is very important to us. Let us know the exact iOS version to get started."
+  },
+  {
+    "id": 5824,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "excuse me, can someone explain to me why when I type an “I️” alone I️ get an A and a question mark???????",
+    "historical_resolution": "We'll be happy to take a look into it with you. Please send us a DM with what version of iOS you have. [URL]"
+  },
+  {
+    "id": 5830,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why does my iphone 6 is redémarrer alone !!!!!",
+    "historical_resolution": "Thanks for getting back to us. We apologize but aren't understanding the issue at hand. Please DM us. [URL]"
+  },
+  {
+    "id": 5832,
+    "intent": "software_update_glitch",
+    "customer_query": "sa fait 1h j’ai ios11.1 et mon tel redemarre seul, explication ?????",
+    "historical_resolution": "We offer support via Twitter in English. Contact us for help in your preferred language here: [URL]"
+  },
+  {
+    "id": 5834,
+    "intent": "software_update_glitch",
+    "customer_query": "You dropped an update and I️ still see boxed question marks. Fix this shit .",
+    "historical_resolution": "We're here to help. Which version of iOS is installed on your device? You'll see this in Settings > General > About."
+  },
+  {
+    "id": 5836,
+    "intent": "software_update_glitch",
+    "customer_query": "Just updated to iOS 11.2 and my keyboard is completely screwed up and glitchy now 🤦‍♂️",
+    "historical_resolution": "We'd like to assist as best we can. Do you mean iOS 11.1 which was released today?"
+  },
+  {
+    "id": 5840,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yes. Sorry. I️ just watched a video about 11.2 beta. 11.1 When I️ type the letter Eye I️ happens [URL]",
+    "historical_resolution": "Have you tried resetting the keyboard dictionary yet? If not, go to Settings > General > Reset > Reset Keyboard Library"
+  },
+  {
+    "id": 5842,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Tried I️t and I️t still doesn’t work",
+    "historical_resolution": "Here’s what you can do to work around the issue until it’s fixed in a future software update: [URL]"
+  },
+  {
+    "id": 5843,
+    "intent": "software_update_glitch",
+    "customer_query": "Updated iPad Pro to 11.1. Worked on draft email. None of changes saved. Started new email. Saved but disappeared. Help please",
+    "historical_resolution": "We'll help in any way we can. Was this on an [URL] email account?"
+  },
+  {
+    "id": 5846,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "No, virginmedia. Tried twice with completely new mail. One didn’t save, 2nd did though. Very odd.",
+    "historical_resolution": "Some accounts may create separate folders for your Drafts. If you're still having trouble, please DM us here: [URL]"
+  },
+  {
+    "id": 5847,
+    "intent": "software_update_glitch",
+    "customer_query": "I updated to iOS 11 and my iPhone 6 stopped connecting to wi-fi. Already restored the phone and the network connections",
+    "historical_resolution": "We are here to help. So we can best isolate the cause, could you verify your exact iOS version? [URL]"
+  },
+  {
+    "id": 5852,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why is my “it “ autocorrecting to I.T?? So annoying! Can’t change in settings either...",
+    "historical_resolution": "We'd love to help. Let's work together in DM. [URL]"
+  },
+  {
+    "id": 6482,
+    "intent": "physical_damage_repair",
+    "customer_query": "Hello what’s happening to my screen [URL]",
+    "historical_resolution": "We'd love to take a look into this concern. Is the screen stuck this way have you restarted it? Send us a DM. [URL]"
+  },
+  {
+    "id": 6553,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "how long does it take usually for account recovery to get back to you? It’s been about a week now.",
+    "historical_resolution": "Having access to your Apple ID is important. Did you receive an email with a confirmation of your request? DM us here: [URL]"
+  },
+  {
+    "id": 6607,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "the fact that my laptop that I haven't even had for two years keeps shutting off without warning at 15% is kind of ridiculous.",
+    "historical_resolution": "Let's see what we can find for you today. Let's meet up in DM to gather some specifics and we'll proceed from there. [URL]"
+  },
+  {
+    "id": 6656,
+    "intent": "account_security_icloud",
+    "customer_query": "My wife made the mistake of updating to 11. How can we revert back? Her password keeper app is now dead. She can't access her passwords.",
+    "historical_resolution": "You won't be able to revert the system to pre-iOS 11 but we can look into the issues. DM us and we'll get started. [URL]"
+  },
+  {
+    "id": 6916,
+    "intent": "battery_power_hardware",
+    "customer_query": "Yes, sorry i mean iOS 11, when I texting my keyboard it’s very slow and my battery it consumes very fast.",
+    "historical_resolution": "Are you currently using Low Power Mode? If so, disable that from Settings > Battery and restart. Let us know in DM if it helps. [URL]"
+  },
+  {
+    "id": 6918,
+    "intent": "software_update_glitch",
+    "customer_query": "I installed the iOS 10.0 , 10.0.1 and 10.0.2 and makes my iPhone 6 very slow and doesn’t work properly can you help me?",
+    "historical_resolution": "We can help! We assume you mean iOS 11, right? Can you tell us what types of performance issues you're experiencing?"
+  },
+  {
+    "id": 6927,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "my iPhone is a fully up to date so why does my phone keep freezing 🙃???",
+    "historical_resolution": "We want to help in any way we can. Which iPhone are you using? Let us know in DM, and we’ll work with you there. [URL]"
+  },
+  {
+    "id": 6933,
+    "intent": "battery_power_hardware",
+    "customer_query": "after the new apple updates: the battery life is really go fast and the WiFi is always on! #newappleupdates",
+    "historical_resolution": "We'd love to help. Let's work on this together in DM. Start by letting us know what kind of device you are using. [URL]"
+  },
+  {
+    "id": 8296,
+    "intent": "account_security_icloud",
+    "customer_query": "Hello there i need help with the use of an administartors name and password on my imac",
+    "historical_resolution": "Hi! We're happy to help. Join us in DM with the macOS version installed on your iMac and more details about what's going on. [URL]"
+  },
+  {
+    "id": 8298,
+    "intent": "software_update_glitch",
+    "customer_query": "DL the latest iOS today. Very laggy 6s. Phone is running like hammered dog shit since the DL.",
+    "historical_resolution": "Are you seeing issues across all apps or are you noticing lag when performing specific tasks? Let us know in DM. [URL]"
+  },
+  {
+    "id": 8300,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Every time I watch a live broadcast or video it skips or repeats a few seconds since updating [URL]",
+    "historical_resolution": "We'd like to learn more about what's happening. What model & iOS version are you working with? Tell us in DM, please. [URL]"
+  },
+  {
+    "id": 8303,
+    "intent": "battery_power_hardware",
+    "customer_query": "can your team let me know why my new iPhone 6 always has hanging problem I do not know what the problem is by I know I feel I am cheated by apple for phone 📱 do I ?",
+    "historical_resolution": "We'd be concerned with an unresponsive device too. Let us know your iOS version in DM and we'll help: [URL]"
+  },
+  {
+    "id": 8307,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I don’t know. I need the space though. How do I get rid of some snapshots",
+    "historical_resolution": "Finder and Get Info windows don't include snapshots in their calculations so that's not the root cause. Let's meet within DM: [URL]"
+  },
+  {
+    "id": 8309,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Its slowing down my mac a lot",
+    "historical_resolution": "Is 25 GBs what you have left after the snapshots were created on the drive though? Or, were you low on space prior to snapshots?"
+  },
+  {
+    "id": 8311,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "i have 256 hd and timemachine/system is taking up 150gb of space. I only have 25gb free. Is it suppose to work like this?",
+    "historical_resolution": "Thanks for reaching out to us. We're happy to help out. We recommend checking out this link: [URL]"
+  },
+  {
+    "id": 8319,
+    "intent": "software_update_glitch",
+    "customer_query": "iOS 11.1 should never been released. So many bugs. The statusbar randomly disappears in Facebook app",
+    "historical_resolution": "We'd like to look into the trouble you're having. Does this only occur in the Facebook app?"
+  },
+  {
+    "id": 8339,
+    "intent": "software_update_glitch",
+    "customer_query": "only 8 attempts to open the twitter app and complain about the iOS 11 messing up my iPhone 7 - this is slowing down my life :(",
+    "historical_resolution": "We'd like to look into this with you. Please DM us details and we'll be glad to work with you towards a resolution. [URL]"
+  },
+  {
+    "id": 8418,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Chat doesn’t seem to work in Germany. On the order page I cannot leave comments …",
+    "historical_resolution": "If you are unable to access these resources, let's get you connected with our local AppleCare Support team to get you to our Online Support group: [URL]"
+  },
+  {
+    "id": 8434,
+    "intent": "account_security_icloud",
+    "customer_query": "suck! Upgrade phone & I lose my Apple ID. Can’t get new id without old & can’t book Genius bar help appointment without ID!!! #stupid",
+    "historical_resolution": "We're happy you reached out so we can find you the info you need. If you forgot your Apple ID, go to the Apple ID account page: [URL] From here, click \"Forgot Apple ID or password?\" then click \"look it up.\" From here, follow the on screen prompts."
+  },
+  {
+    "id": 8438,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I need an actual human to help me",
+    "historical_resolution": "Understood. For further help with your Apple ID, connect with one of our Apple ID Advisors here: [URL]"
+  },
+  {
+    "id": 8546,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "no, my photos aren’t gone. why are there four (five actually, one isn’t pictured) albums in my photos all labeled twitter?",
+    "historical_resolution": "Got it. Please continue with us by reaching out to our Photos app experts: [URL]"
+  },
+  {
+    "id": 8547,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "lil help? [URL]",
+    "historical_resolution": "We'd love to help. DM us which iOS device you are experiencing this issue on to get started. [URL]"
+  },
+  {
+    "id": 8549,
+    "intent": "physical_damage_repair",
+    "customer_query": "ya.lately my screen was disfunction for touch after its been restart. i couldnt enter passcode yet homebutton still figureout my fingerprint",
+    "historical_resolution": "For security, the passcode is always required even if you have Touch ID turned on. Are you still having touch screen issues?"
+  },
+  {
+    "id": 8552,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "so it cant be disable? umm ya.. problem comes oftenly when my iphone just woke up. kindly please gimme some advices to heal that issue",
+    "historical_resolution": "This link is a great place to start: [URL] If you still have issues after those steps, DM us. [URL]"
+  },
+  {
+    "id": 8554,
+    "intent": "physical_damage_repair",
+    "customer_query": "ya.. i did that way like 3-4times for make my screen finally worked out. whats the causes anw? what tips to prevent it wont happen again?",
+    "historical_resolution": "We wouldn't want to speculate into the cause, but please send us a DM so we can look into this further with you. [URL]"
+  },
+  {
+    "id": 8556,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "is that safe if we disable passcode for unlock iphone? i mean,is the fingerprint still worked out? i think dat would be enough",
+    "historical_resolution": "We want to make sure we understand the issue. Are you wanting to disable the passcode and still use Touch ID?"
+  },
+  {
+    "id": 8558,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "hey what’s going on with the letter I . When i start to. Type this happens below [URL]",
+    "historical_resolution": "Let's look at this together. To begin, are you completely updated to iOS 11.1?"
+  },
+  {
+    "id": 8562,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yes I️ just did that today.",
+    "historical_resolution": "OK, please DM us, so we can work together on this. [URL]"
+  },
+  {
+    "id": 8569,
+    "intent": "software_update_glitch",
+    "customer_query": "FYI, Folders no longer show Folder Names after update unless folder highlighted. [URL]",
+    "historical_resolution": "Thanks for reaching out. For help with AppleTV reach out to our experts here: [URL]"
+  },
+  {
+    "id": 8572,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "this is the second Fishing email that I have gotten in 2 days [URL]",
+    "historical_resolution": "We are here to help. Please refer to the following article for steps to report these emails: [URL]"
+  },
+  {
+    "id": 8576,
+    "intent": "physical_damage_repair",
+    "customer_query": "since upgrade to High Sierra I see this screen each time my iMac reboots thus defeating automatic login I need. Help. [URL]",
+    "historical_resolution": "Thanks for reaching out to let us know about this. So we can look into this with you, please DM us here: [URL]"
+  },
+  {
+    "id": 8578,
+    "intent": "battery_power_hardware",
+    "customer_query": "I bought 2 iPhones X on Friday, but I don’t see any charge on my credit card. Do I should worry or it’s normal?",
+    "historical_resolution": "Thanks for reaching out to us. Please send us a DM with your country, and we'll look into this. [URL]"
+  },
+  {
+    "id": 9150,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hey , what’s up with this new autocorrect? Happening on iPhone 7 Plus and iPhone 7. [URL]",
+    "historical_resolution": "Let's take a look at this issue together. Which iOS version is your device currently running?"
+  },
+  {
+    "id": 9153,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Well, I️ was running 11.0.3, and now 11.1. Issue persists.",
+    "historical_resolution": "Thanks. Please DM us and we'll continue this conversation there. [URL]"
+  },
+  {
+    "id": 9155,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I’m having the same issue!!! Just started today!",
+    "historical_resolution": "Lets help get this sorted. Please DM us the version of iOS you're using and we can go from there. [URL]"
+  },
+  {
+    "id": 9157,
+    "intent": "battery_power_hardware",
+    "customer_query": "It’s showing it’s connected and the battery is decreasing.",
+    "historical_resolution": "We are here for you. Let's take a look at this further for you. Reach out to us in DM. [URL]"
+  },
+  {
+    "id": 9161,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "My iPhone is so damn glitchy, not sure this upgrade to the 8 was worth it. I can’t even send pictures 😡",
+    "historical_resolution": "Let's see how we can help over Twitter. Is iOS 11.1 the version installed and have you tried any steps? Which app is it?"
+  },
+  {
+    "id": 9168,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "11.1にあげたらTwitter少し見てるだけだし低電力モードなのに20パーへったぞ。デバイス本体ごと取り換えて数ヶ月だし今回のアプデはミスだな。バッテリー消費悪化してる。",
+    "historical_resolution": "We offer support via Twitter in English. Contact us for help in your preferred language here: [URL]"
+  },
+  {
+    "id": 9171,
+    "intent": "battery_power_hardware",
+    "customer_query": "iOS11.1 consumes battery pretty fast....",
+    "historical_resolution": "Let's see how you're using your battery so we can provide the best solution. To start, DM us with the country where you're located. [URL]"
+  },
+  {
+    "id": 9172,
+    "intent": "software_update_glitch",
+    "customer_query": "Bienvenida sea la multi tarea al 3D touch en iphone, gracias #newupdate",
+    "historical_resolution": "We offer support via Twitter in English. Get help in Spanish here: [URL] or join [URL]"
+  },
+  {
+    "id": 9175,
+    "intent": "software_update_glitch",
+    "customer_query": "the new update is making my phone so funky. Check out the emoji and the letter I️. Is there a fix? [URL]",
+    "historical_resolution": "We'd like to help. Send us a DM and we can start there. [URL]"
+  },
+  {
+    "id": 9177,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "what’s up with typing the letter I️ ... it wants to be an A and a box with a question mark",
+    "historical_resolution": "We'd like to help. We received your DM and will continue there. [URL]"
+  },
+  {
+    "id": 9179,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I bought an iTunes gift card worth £15 a week ago, and the email still hasn’t come into my inbox to tell me the code. Helpppp",
+    "historical_resolution": "We're here for you. You'll need to contact our iTunes Store group for help with iTunes codes: [URL]"
+  },
+  {
+    "id": 9181,
+    "intent": "software_update_glitch",
+    "customer_query": "Okay, I️ updated my phone the newest version",
+    "historical_resolution": "Thank you for the update. DM us here to continue: [URL]"
+  },
+  {
+    "id": 9185,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "hey apple ! What is going on with the iPhones ?? Every time I️ type the letter “I️” I️ get a symbol. Which you see right now!",
+    "historical_resolution": "Let's team up and get the exclamation point working right. Which model do you have? Is iOS 11.1 installed?"
+  },
+  {
+    "id": 9191,
+    "intent": "software_update_glitch",
+    "customer_query": "My screen is lagging, my apps are all glitching, your new screen updates are slowing my processsing speed down. Y’all are killin me fr yo",
+    "historical_resolution": "Is this happening only with certain applications? Meet up with us in a DM, we'll continue there. [URL]"
+  },
+  {
+    "id": 9192,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Ayo fix this whole question mark box ting dem shits annoying.",
+    "historical_resolution": "Hi, can you tell us more about this in a DM? We'll look into this together from there. [URL]"
+  },
+  {
+    "id": 9194,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I bought an iPhone 8 with AppleCare+. Wanting to return the iPhone 8. What happens with the AppleCare+?",
+    "historical_resolution": "Thanks for contacting us. We'd like to gather some info to help out. Let's meet in DM. [URL]"
+  },
+  {
+    "id": 9196,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Does the person you send it too also have to have a iPhone to see this?I see it on my phone.",
+    "historical_resolution": "Great question. They must have a device with iOS 10 or later. Here's some more information: [URL]"
+  },
+  {
+    "id": 9199,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "But would it work with another phone brand?Like LG galaxy phones?",
+    "historical_resolution": "Currently, only iPhones with iOS 10 or later are supported."
+  },
+  {
+    "id": 9303,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why are my I ‘s changing into I️ ?!!!!!",
+    "historical_resolution": "Interesting. Let's look into this. Which iOS version is showing in Settings > General > About?"
+  },
+  {
+    "id": 9828,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "please help us lmao [URL]",
+    "historical_resolution": "Your keyboard is important and we'd like to help get it working right. When did this start and which device model is it?"
+  },
+  {
+    "id": 9832,
+    "intent": "software_update_glitch",
+    "customer_query": "started before downloading 11.1 (was never able to download 11.0.3). hasn't gotten better since update",
+    "historical_resolution": "Let's continue within DM here: [URL]"
+  },
+  {
+    "id": 9833,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Dear why is my letter I️ not working by itself in email or text? When I️ type the letter “I️” the attached happens. [URL]",
+    "historical_resolution": "We're here to help. Which version of iOS do you have installed on your device? You'd see this in Settings > General > About."
+  },
+  {
+    "id": 9837,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "updating xcode via appstore. 7-min remaining 6-hr ago. 1-min rem for over an hour. Why? My net bandwidth is good.",
+    "historical_resolution": "We'd like to help any way we can. Are other apps able to be downloaded on your device? Which model is it and which OS version?"
+  },
+  {
+    "id": 9839,
+    "intent": "software_update_glitch",
+    "customer_query": "mi iPhone no se puede conectar a la red wifi privadas pero si a las free, que hago 😢",
+    "historical_resolution": "We offer support via Twitter in English. Get help in Spanish here: [URL] or join [URL]"
+  },
+  {
+    "id": 9841,
+    "intent": "software_update_glitch",
+    "customer_query": "FOCO AQUI Q Q TÁ ACONTECENDO ~ iOS 11 guloso [URL]",
+    "historical_resolution": "Since our Twitter support is available in English, get help at [URL] or join [URL]"
+  },
+  {
+    "id": 9844,
+    "intent": "battery_power_hardware",
+    "customer_query": "I said the battery is dying too fast. Is that because of the new iOS 11.0.3? I’m pretty worried about it 😕 I can’t trust my phone anymore",
+    "historical_resolution": "We're here to help. Let's update your device to iOS 11.1 and test to see if the issue persists: [URL]"
+  },
+  {
+    "id": 9846,
+    "intent": "software_update_glitch",
+    "customer_query": "hey my i on my keyboard isn't working and i just updated my phone to the latest IOS",
+    "historical_resolution": "Thank you for reaching out. May we ask which apps you're seeing the keyboard issue with?"
+  },
+  {
+    "id": 9849,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "iMessage & snapchat",
+    "historical_resolution": "Thanks for letting us know. Send us a DM and we'll do everything we can to get your keyboard back on track. [URL]"
+  },
+  {
+    "id": 10668,
+    "intent": "software_update_glitch",
+    "customer_query": "So, since updating the latest iOS, Pages no longer lets me open any docs, all show, just don’t open. Suggestions? Anyone?",
+    "historical_resolution": "Can you confirm what version of iOS you updated to? Also, have you tried restarting your device?"
+  },
+  {
+    "id": 10672,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "/2...2 docs did open, duplicated themselves, now none open after I closed them.",
+    "historical_resolution": "Please send us a DM and we will go from there. [URL]"
+  },
+  {
+    "id": 10673,
+    "intent": "software_update_glitch",
+    "customer_query": "after I upgraded my iPhone to iOS 11.0.3, the back camera and the flash stopped working. Could you do something?",
+    "historical_resolution": "Hi, we'll be happy to help. To start, let's give the troubleshooting steps in this article a try: [URL]"
+  },
+  {
+    "id": 10675,
+    "intent": "software_update_glitch",
+    "customer_query": "just updated Apple Watch to 4.1. Is ESPN radio etc only available in USA, can’t get it on my watch in the UK",
+    "historical_resolution": "We want to help you. That station may not be available. Availability of live stations varies depending on your location."
+  },
+  {
+    "id": 10678,
+    "intent": "software_update_glitch",
+    "customer_query": "Depois da ultima atualizado do IOS a bateria do IPhone 6 tá durando quase nada",
+    "historical_resolution": "Since our Twitter support is available in English, get help at [URL] or join [URL]"
+  },
+  {
+    "id": 10682,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Baje la App de la cual es gratuita y me llego un cargo de $18.11 Pesos ¿cuál es el motivo?",
+    "historical_resolution": "We offer support via Twitter in English. Get help in Spanish here: [URL] or join [URL]"
+  },
+  {
+    "id": 10684,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I️ figured it out thanks 🤘🏽",
+    "historical_resolution": "Awesome! It's our pleasure. Feel free to reach out anytime a question comes up."
+  },
+  {
+    "id": 10688,
+    "intent": "software_update_glitch",
+    "customer_query": "updated to iOS 11.1 and there's so many glitches and bugs I found inside the update",
+    "historical_resolution": "We'd be happy to help. Send us a DM and we can start there. [URL]"
+  },
+  {
+    "id": 10690,
+    "intent": "software_update_glitch",
+    "customer_query": "Downloaded new software update and my iPhone 6S in perfect condition magically became inoperably glitchy. What a coincidence",
+    "historical_resolution": "We want you to have a smooth experience with our updates. What exactly is happening with your iPhone?"
+  },
+  {
+    "id": 10692,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why do I not have my October challenge ring after competition? 😡😡",
+    "historical_resolution": "If you complete an achievement, but don't earn the award, you will earn the award within 9 days of completing the challenge."
+  },
+  {
+    "id": 10695,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Well it is now 11 days after and still no sign of it",
+    "historical_resolution": "Thanks for letting us know. Please send us a DM with the current country you're in. [URL]"
+  },
+  {
+    "id": 11091,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Well it froze as I was ordering a pizza so I had to. And now it’s already to 49%",
+    "historical_resolution": "We'd like to offer our help. Please shoot us a DM and we'll explore the battery challenge. [URL]"
+  },
+  {
+    "id": 11098,
+    "intent": "software_update_glitch",
+    "customer_query": "music and podcast “skip” around like a CD, then distorts and clears up in few seconds, only happens after iOS 11",
+    "historical_resolution": "We're here to help. Did this happen after a specific update, or just recently? Thanks!"
+  },
+  {
+    "id": 11103,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It’s only done it with Apple Music and Apple Podcast, regardless if saved to phone or streaming",
+    "historical_resolution": "We want to help further! What model of iOS device are you using? Do you have the most recent version of iOS 11.1 downloaded?"
+  },
+  {
+    "id": 11105,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "iPhone 7 and yes the software is up to date",
+    "historical_resolution": "We'd like to investigate with you. Send us a DM and we can troubleshoot more from there. [URL]"
+  },
+  {
+    "id": 11106,
+    "intent": "software_update_glitch",
+    "customer_query": ". . haven’t been able to type I️ since the new update [URL]",
+    "historical_resolution": "We certainly want you to be able to type. Have you tried restarting the device since this has happened?"
+  },
+  {
+    "id": 11112,
+    "intent": "software_update_glitch",
+    "customer_query": "The whole phone will just crash or freeze for over a minute. It be spazzing out too like it has a ghost in it or something.",
+    "historical_resolution": "Thanks. We'll help get to the bottom of this together. What version of iOS are you currently running?"
+  },
+  {
+    "id": 11117,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "my watch has been saying I’ve been averaging 57 minutes, now today it’s 52, I checked and did the math it’s 57... what the??? [URL]",
+    "historical_resolution": "We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. [URL]"
+  },
+  {
+    "id": 11119,
+    "intent": "software_update_glitch",
+    "customer_query": "6 plus, idk what iOS version.. and it was the rear facing camera",
+    "historical_resolution": "We'd like to gather more information. Let's meet in DM. [URL]"
+  },
+  {
+    "id": 11121,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "would love to know why my pictures look like this when I take a picture 😡 [URL]",
+    "historical_resolution": "We would love to help you with this! Is this the front or rear facing camera? Which device and iOS version?"
+  },
+  {
+    "id": 11128,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "lucky I was home and next to this when it randomly started to smoke. Unplugged before disaster!! What the hell? [URL]",
+    "historical_resolution": "We want to look into this with you. DM us and let us know what model of computer you use this cord with. [URL]"
+  },
+  {
+    "id": 11132,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "My Touch ID failed when I restarted my phone. Now it’s not working at all",
+    "historical_resolution": "Did you receive an error message, or were you just prompted to enter in the passcode for your iOS device after the restart?"
+  },
+  {
+    "id": 11135,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I received an error message. And another when I tried to set it up again in settings",
+    "historical_resolution": "Let's give the steps in this article a try, and keep us posted on the results please: [URL]"
+  },
+  {
+    "id": 11137,
+    "intent": "software_update_glitch",
+    "customer_query": "Tried the steps. Still receiving an error message. Just updated to iOS 11.1 and got the message when my phone restarted",
+    "historical_resolution": "Alright, let's continue working on this via DM. Tell us what country you're currently in. [URL]"
+  },
+  {
+    "id": 11138,
+    "intent": "account_security_icloud",
+    "customer_query": "I get prompted for a system administrator password on a MBP MacOS but there is no system administrator account I’m aware of!! [URL]",
+    "historical_resolution": "Let's take a closer look together. Which macOS version is installed currently? Where does this screen come up on your Mac?"
+  },
+  {
+    "id": 11627,
+    "intent": "software_update_glitch",
+    "customer_query": "I've been trying to update to the newest iOS for some time. It never fully processes. Verification doesn't go through. Help.",
+    "historical_resolution": "We're here to help. After backing up your device, let's try updating your device through iTunes: [URL]"
+  },
+  {
+    "id": 11631,
+    "intent": "software_update_glitch",
+    "customer_query": "Since I updated my iPhone I can’t download apps now. Thanks 🙄🙄🙄",
+    "historical_resolution": "Are you on the latest iOS 11.1 version?"
+  },
+  {
+    "id": 11637,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I get this message when I close the app. When I touch it I get into the app, but getting this when closing the app is annoying.",
+    "historical_resolution": "Is this coming up with any other apps when doing the same thing? Which iOS version is in Settings > General > About?"
+  },
+  {
+    "id": 11640,
+    "intent": "software_update_glitch",
+    "customer_query": "It only happens when I close WhatsApp, doesn’t happen with any other app. I run iOS11.0.3 [URL]",
+    "historical_resolution": "How are you closing the App? [URL]"
+  },
+  {
+    "id": 11642,
+    "intent": "physical_damage_repair",
+    "customer_query": "Like this. Open the Multitasking screen, swiping up on the WhatsApp app to close it; as seen in the video. [URL]",
+    "historical_resolution": "Meet us in DM with a screenshot of what shows in Settings > Notifications > WhatsApp, please. [URL]"
+  },
+  {
+    "id": 11644,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "How do I get rid of this notification? [URL]",
+    "historical_resolution": "Let's see how we can help. Is that the message you see when trying to swipe the notification and get to the app?"
+  },
+  {
+    "id": 11646,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Wow! Also in landscape! This is better than I think! [URL]",
+    "historical_resolution": "We'd love to look into this with you! To begin, can you DM us what iOS version you're currently on? [URL]"
+  },
+  {
+    "id": 11649,
+    "intent": "software_update_glitch",
+    "customer_query": "Just updated it and still is turing my letter I️ into something different.",
+    "historical_resolution": "Alright, no problem. Let's look into it closer via DM: [URL]"
+  },
+  {
+    "id": 11654,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "is my #IphoneX really going to ship between December 5-11? I preorder right when preordering open at 12:01",
+    "historical_resolution": "Thank you for reaching out. May we ask where you're located? Let us know in DM. [URL]"
+  },
+  {
+    "id": 11656,
+    "intent": "software_update_glitch",
+    "customer_query": "Ios 11.1 software update needs to be fixed",
+    "historical_resolution": "Let's continue within DM here: [URL]"
+  },
+  {
+    "id": 11662,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "how will iphone x recognize me with face id if I am wearing my du rag?",
+    "historical_resolution": "Great Question! You can read more about changing your appearance with Face ID here: [URL]"
+  },
+  {
+    "id": 11667,
+    "intent": "battery_power_hardware",
+    "customer_query": "My backup was stored to my MacBook Pro which battery died 2 months ago.",
+    "historical_resolution": "Let's take a look at this together in DM. [URL]"
+  },
+  {
+    "id": 11989,
+    "intent": "software_update_glitch",
+    "customer_query": "your latest iOS update had made my phone slower and apps like iMessage are slow to open and load. What’s up with this?",
+    "historical_resolution": "Hi. We are here to help. What is the specific iOS version that you have?"
+  },
+  {
+    "id": 11994,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "any suggestions???",
+    "historical_resolution": "We'd like to look at service options with you. Let's take a look at this in DM. [URL]"
+  },
+  {
+    "id": 11997,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "what’s up with the letter “i” man? pls fix. i’m annoyed.",
+    "historical_resolution": "You've come to the right place. May we ask when you started to notice the situation?"
+  },
+  {
+    "id": 12001,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "a couple of days ago. it’s been happening on a few of my friends’ phones as well.",
+    "historical_resolution": "Thank you for that info. Is this happening with all the apps or only a select few? [URL]"
+  },
+  {
+    "id": 12003,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It’s happening in all my apps. I’m thinking there’s a problem with the keyboard.",
+    "historical_resolution": "Thank you for confirming that. Let's discuss this further in DM. [URL]"
+  },
+  {
+    "id": 12004,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I app. the reply. Iphone 7+. Not finishing for an 8 or an X just fix the SW. I can’t go another week with the 7+",
+    "historical_resolution": "We're asking which version you're running as we released iOS 11.1 today. It may help address the issues you've been experiencing."
+  },
+  {
+    "id": 12007,
+    "intent": "battery_power_hardware",
+    "customer_query": "No it doesn’t address. Nothing even included about battery improvement on the SW release notes from what I can see.",
+    "historical_resolution": "We want to make sure your iPhone works the way you expect it to. Let's get paired up in DM to get started. [URL]"
+  },
+  {
+    "id": 12011,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Excuse me : when y’all gonna address the fact that some glitch is turning Is into hieroglyphics?!",
+    "historical_resolution": "We want your predictions to be accurate. Please DM us with the current version of iOS you have. [URL]"
+  },
+  {
+    "id": 12018,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Man I’m having the same problem. Thought EYE was alone. Was just about to accept life without ever using the word “I” anymore.",
+    "historical_resolution": "We want to take a look into this with you. DM us your current iOS version, and we’ll start there. [URL]"
+  },
+  {
+    "id": 12024,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "The only keyboard I️ have is whatever my iPhone came with. It’s occurring in everything: messages, social media, emailing ect.",
+    "historical_resolution": "We'd like to take a closer look. Send us a DM and we can start there. [URL]"
+  },
+  {
+    "id": 12565,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It's a shame that Siri can't be used to turn off the timer. Pain to do it with messy hands. Send to the idea file?",
+    "historical_resolution": "We value your feedback. Feel free to leave it here: [URL]"
+  },
+  {
+    "id": 12571,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "is there a way to opt out of iMessage and FaceTime during initial setup on an iPhone?",
+    "historical_resolution": "We're here for you. There isn't a way to avoid iMessage activation with a number, but you can turn it off: [URL]"
+  },
+  {
+    "id": 12578,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "If I️ type letter “eye” it does this. I️",
+    "historical_resolution": "Please DM us with the iOS version showing in Settings > General > About. We're eager to look into what's going on. [URL]"
+  },
+  {
+    "id": 12579,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why does I️ keep showing up as symbols?",
+    "historical_resolution": "We'd like to see what we can do to assist. What iOS version are you running?"
+  },
+  {
+    "id": 12583,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why is my phone doing this [URL]",
+    "historical_resolution": "Let's look into this for you. Send us a DM with your iOS version to get started. [URL]"
+  },
+  {
+    "id": 12585,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "What do you make of this? (Top left corner) I am a US customer, and I think my phone has been hacked. [URL]",
+    "historical_resolution": "Let's look into this for you. Send us a DM with your current iOS version to get started. [URL]"
+  },
+  {
+    "id": 12593,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It’s happening to a lot of my friends",
+    "historical_resolution": "Let's meet up in DM to continue. [URL]"
+  },
+  {
+    "id": 12595,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Seems I have a virus, I’ve been getting these pop-ups: [URL]",
+    "historical_resolution": "Your security is our absolute priority. Visit this link for info on pop up adds in Safari: [URL]"
+  },
+  {
+    "id": 12597,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "APPLE WHY IS MY “I️’s” coming out as question marked boxes & pounds ?! Fix it jeezus",
+    "historical_resolution": "Hi. We are here to help. What version of iOS do you have?"
+  },
+  {
+    "id": 12600,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Here is the problem [URL]",
+    "historical_resolution": "We'd be happy to assist. To begin, are you completely updated to iOS 11.1? DM us to let us know. [URL]"
+  },
+  {
+    "id": 12601,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Why do you keep charging my card for FREE apps? Im not happy at all.",
+    "historical_resolution": "We're here for you. For unrecognized charges, use: [URL] For more help, contact us: [URL]"
+  },
+  {
+    "id": 12603,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "What’s with the I️ I️ I️ I️ I️ I️? I️ just want to write an I️ (eye)",
+    "historical_resolution": "Can you confirm what iOS version you are running?"
+  },
+  {
+    "id": 12606,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Eye can’t type the letter eye without it changing to a? ... yes I️ reset the keyboard [URL]",
+    "historical_resolution": "We'd love to help! Which version of iOS are you currently updated to? What Keyboards do you have installed?"
+  },
+  {
+    "id": 12609,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yayz 11.1 and just 2 English and emoji",
+    "historical_resolution": "Thank you! Is this issue only occurring in messages or in other applications as well? Send us a DM to let us know. [URL]"
+  },
+  {
+    "id": 12610,
+    "intent": "software_update_glitch",
+    "customer_query": "sooooooo any plans to fix all these bugs from the software updates for the iPhone 7??",
+    "historical_resolution": "We're here to help. What iOS version are you on?"
+  },
+  {
+    "id": 12613,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "thanks! the 11.0.3 that came out the other day",
+    "historical_resolution": "Got it. Let us know in DM what the issue is that you're having? We'd be happy to help you out. [URL]"
+  },
+  {
+    "id": 13192,
+    "intent": "battery_power_hardware",
+    "customer_query": "Im using iPhone6s,it is installed with iOS 11.0.3 n battery drain problem is not resolved in it.When they resolve this issue in wht update?",
+    "historical_resolution": "We've received your DM and will be responding there shortly. Thank you."
+  },
+  {
+    "id": 13195,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Écran d’iPhone cassé. Impossible à connecter sur iTunes ... des astuces svp ?",
+    "historical_resolution": "We offer support via Twitter in English. Contact us for help in your preferred language here: [URL]"
+  },
+  {
+    "id": 13202,
+    "intent": "software_update_glitch",
+    "customer_query": "my OTG adapter doesn't work on i8plus ios 11.1",
+    "historical_resolution": "Thanks for reaching out! Please DM your information so we can help with a solution. [URL]"
+  },
+  {
+    "id": 13209,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It gets stuck sideways and it will go up to previous messages and not show me the latest until I close the app and reopen.",
+    "historical_resolution": "Got it. Which device are you experiencing this on? Let us know in DM, and we'll go from there. [URL]"
+  },
+  {
+    "id": 13210,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "what is happening with my phone??? I️ wrote “I️ got” and that happened [URL]",
+    "historical_resolution": "We can look into this issue together. Send us a DM and let's begin. [URL]"
+  },
+  {
+    "id": 13216,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Been having same issue",
+    "historical_resolution": "We want to help. DM us details on the iOS version you have and which iTunes version. We'll work with you there. [URL]"
+  },
+  {
+    "id": 13223,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "MacOS Sierra is taking up over 100G of my 120G SSD. Why does it take up that much space and can I do anything about it?",
+    "historical_resolution": "Let's team up in DM and determine how we can clear up this space. You can reach us at the link below. [URL]"
+  },
+  {
+    "id": 13577,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "buggie spotted [URL]",
+    "historical_resolution": "Let's work this out! Have you been able to update to iOS 11.1? If not, use the steps here: [URL]"
+  },
+  {
+    "id": 13581,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Ohh got 11.2 beta 1 😸 [URL]",
+    "historical_resolution": "For testing purposes, let's not install the iOS beta just yet. Could you send us a DM with your country to review further? [URL]"
+  },
+  {
+    "id": 13582,
+    "intent": "software_update_glitch",
+    "customer_query": "Dear team, after update my iPhone 6 Plus its hang in the Apple logo screen.",
+    "historical_resolution": "Don't worry, we've got you covered! Check out the steps listed here: [URL]"
+  },
+  {
+    "id": 13585,
+    "intent": "software_update_glitch",
+    "customer_query": "I got a crazy security bug issue with iOS 11.1",
+    "historical_resolution": "We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. [URL]"
+  },
+  {
+    "id": 13587,
+    "intent": "software_update_glitch",
+    "customer_query": "Why do I need a sim card when I’m joined to the WiFi? I’m only using this phone to test websites. [URL]",
+    "historical_resolution": "You'll need to insert a SIM and activate the iPhone, once that's done you can remove the SIM and use the iPhone on Wi-Fi."
+  },
+  {
+    "id": 13589,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Tudo bom ??? Todos estão com o mesmo problema e é sempre com o iPhone 7 o que está acontecendo??? [URL]",
+    "historical_resolution": "Since our Twitter support is available in English, get help at [URL] or join [URL]"
+  },
+  {
+    "id": 13930,
+    "intent": "software_update_glitch",
+    "customer_query": "This what happens to my iPhone after I downloaded IOS 11.1 [URL]",
+    "historical_resolution": "We certainly want to help! Is this while connected to iTunes? Send us a DM to let us know. [URL]"
+  },
+  {
+    "id": 13932,
+    "intent": "software_update_glitch",
+    "customer_query": "after updating to ios 11.1 I have no service, displays no service. reset networking settings does nothing",
+    "historical_resolution": "We'd like to see what we can do to assist. DM us and we'll continue from there. [URL]"
+  },
+  {
+    "id": 13936,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "it’s been doing this for two days... cmon [URL]",
+    "historical_resolution": "We're anxious for you to have access to your downloads. Have you had a chance to restart the iPhone? If not, let's do that now."
+  },
+  {
+    "id": 13940,
+    "intent": "software_update_glitch",
+    "customer_query": "super frustrating trying to send a pano but sending photo works just fine?? Am I doing something wrong? #iOS11 👎 [URL]",
+    "historical_resolution": "You've come to the right place. We're eager to help. Is this happening with SMS (non-iPhone) contacts as well?"
+  },
+  {
+    "id": 13943,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Sent to same group of contacts (one is non iPhone user) worked with photo didn’t work with pano",
+    "historical_resolution": "We'd love to continue working with you. Let's move the conversation to DM. [URL]"
+  },
+  {
+    "id": 13944,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Wait why did my letter “I️” change into weird characters?!?",
+    "historical_resolution": "We'd like to look into this. Does this happen in all apps you use the keyboard with? Which device is this happening on?"
+  },
+  {
+    "id": 13946,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Thank you so much for your help.",
+    "historical_resolution": "You're quite welcome!"
+  },
+  {
+    "id": 13948,
+    "intent": "software_update_glitch",
+    "customer_query": "I have updated my WatchOS but cannot stream the radio on LTE () . Wi Fi (both tethered and direct from watch) works",
+    "historical_resolution": "You're in the right place for help. Let us know in a DM if the issue started randomly or since you first setup the Watch. [URL]"
+  },
+  {
+    "id": 13950,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "HELP EVERYTIME I️ TYPE I️ ONLY SYMBOLS COME UP I️ WANT TO BE ABLE TO TALK ABOUT MYSELF",
+    "historical_resolution": "We know it's important to have your device working correctly. We'd like to help. Let's meet in DM. [URL]"
+  },
+  {
+    "id": 13954,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "O meu está acontecendo a mesma coisa, já redefini a senha e nada",
+    "historical_resolution": "Since our Twitter support is available in English, get help at [URL] or join [URL]."
+  },
+  {
+    "id": 14181,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "what’s up with autocorrect changing it to i.t? i’ve already tried to do the text replacement trick and i.t won’t work",
+    "historical_resolution": "We'll do everything we can to help get this resolved. What type of device are you using and which version of the operating system is currently installed? Tell us the answers via DM. We'll meet up with you there. [URL]"
+  },
+  {
+    "id": 14211,
+    "intent": "battery_power_hardware",
+    "customer_query": "IOS 11 has been a nightmare since I downloaded it. Battery SOC is all over the board and slower than ever before",
+    "historical_resolution": "That should not be happening. We'd be happy to help. Which iOS version are you currently using? You can check in Settings > General > About."
+  },
+  {
+    "id": 14230,
+    "intent": "software_update_glitch",
+    "customer_query": "why iOS Keyboard looks weird in Landscape mode i was typing like nfjfhfbd wanzkdejfc c #fallontonight Help me!!",
+    "historical_resolution": "Let's work together to figure out what's happening with the keyboard on your iOS device. Send us a DM with what type of device you're using, along with your specific iOS version. We'll continue working with you there. [URL]"
+  },
+  {
+    "id": 14305,
+    "intent": "software_update_glitch",
+    "customer_query": "MMS bug on iOS 11.1. MMS won’t send on iPhone 6S.",
+    "historical_resolution": "We'd like to look into what's going on with your MMS. What happens when you try to send? Do you get an error?"
+  },
+  {
+    "id": 14309,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "And this is on both iMessages and SMS. Texts without images work fine. And I just migrated from a old iPhone to a new one!",
+    "historical_resolution": "Got it. Let's give the steps in the following article a try please: [URL] Let us know how that goes in a DM. [URL]"
+  },
+  {
+    "id": 14310,
+    "intent": "software_update_glitch",
+    "customer_query": "Can I un-update my phone so it can stop freezing up and I can stop having to reset it 10 times a day? 🙃",
+    "historical_resolution": "Thank you for reaching out to us. Let's take a look at this in DM. [URL]"
+  },
+  {
+    "id": 14312,
+    "intent": "software_update_glitch",
+    "customer_query": "Can’t share any photos from iCloud with iOS 11.1 [URL]",
+    "historical_resolution": "We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. [URL]"
+  },
+  {
+    "id": 14316,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Just deleted and reinstalled the app, but it doesn’t make any difference",
+    "historical_resolution": "You did a great job going through those steps. DM us here to contiue further:"
+  },
+  {
+    "id": 14318,
+    "intent": "software_update_glitch",
+    "customer_query": "My Calendar app doesn’t work at all after iOS 11.1, can’t see other months and it just shuts down, I have an IPhone SE",
+    "historical_resolution": "We want to help you. Are there any troubleshooting steps you tried on your own? We want to make sure we don't repeat any steps."
+  },
+  {
+    "id": 14323,
+    "intent": "billing_subscription",
+    "customer_query": "just purchased iTunes movie on ATV in HD. Stops to buffer and stream every 5 minutes. Very unpleasant experience. Never had issues with movies. showing 30+ mbps DL🤷🏻‍♂️",
+    "historical_resolution": "We want to help with your Apple TV. Click here to reach our team that can assist with your Apple TV: [URL]"
+  },
+  {
+    "id": 14325,
+    "intent": "software_update_glitch",
+    "customer_query": "Updated my phone last night & now its stuck in headphone mode, cant hear anything on video, FaceTime & call sound goes in&out",
+    "historical_resolution": "We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. [URL]"
+  },
+  {
+    "id": 14327,
+    "intent": "software_update_glitch",
+    "customer_query": "why does this keep happening? Started prior to iOS 11.1 update. Still happens post update. [URL]",
+    "historical_resolution": "Let's look at this closer. Please DM us. [URL]"
+  },
+  {
+    "id": 14333,
+    "intent": "general_feedback_inquiry",
+    "customer_query": ". WHY DOES THIS KEEP HAPPENING😭 [URL]",
+    "historical_resolution": "We want to help! DM us and let us know more about the issues you are having. [URL]"
+  },
+  {
+    "id": 14836,
+    "intent": "battery_power_hardware",
+    "customer_query": "iOS 11 is draining the battery on my iPhone 7 twice as fast as iOS 10. Help!",
+    "historical_resolution": "We'd like to gather some more information for better troubleshooting. Can you DM us the country you are located in? [URL]"
+  },
+  {
+    "id": 14839,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Help! My computer has been like this since yesterday & I need it. I don’t know what to do. [URL]",
+    "historical_resolution": "Use the link below to send us a Direct Message. We’ll meet you there, and we can work towards a resolution together. [URL]"
+  },
+  {
+    "id": 14842,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "So, that got me back in, but now Mail won’t work.",
+    "historical_resolution": "What happens when you try to open or use the Mail app? Let us know more in DM, please. [URL]"
+  },
+  {
+    "id": 14860,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "my phone was acting up. I then restarted it and now all it does is stay on the apple logo when I turn it on. Wtf",
+    "historical_resolution": "We’ve got your back. Let us know if the steps in this article help with your iPhone: [URL]"
+  },
+  {
+    "id": 14863,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Still same thing smh",
+    "historical_resolution": "Thank you for testing out those steps. Send us a DM telling us the iPhone you have, and what happened before you restarted it. [URL]"
+  },
+  {
+    "id": 14864,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I’ve tried to do the upgrade program online and can’t. t-mobile as a carrier and no apple store closer then 3hours away. Help",
+    "historical_resolution": "We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. [URL]"
+  },
+  {
+    "id": 14866,
+    "intent": "battery_power_hardware",
+    "customer_query": "Hey the new iOS is killing me! Email freezing and horrific battery life. What gives- I can’t even go back to old iOS. Grrrrrr",
+    "historical_resolution": "We're here to help. DM us which iOS device you are using to get started. [URL]"
+  },
+  {
+    "id": 14868,
+    "intent": "software_update_glitch",
+    "customer_query": "add me to the list of the people having the “question box” autocorrect thing. Running the most current iOS on an iPhone8+.",
+    "historical_resolution": "Hey there. Let’s take a look further into this. DM us letting us know when this started. [URL]"
+  },
+  {
+    "id": 15307,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yo why is this happening to everyone I️ know?? Pls fix this issue. Anyone else? 🙄🙄🙄 [URL]",
+    "historical_resolution": "Let's look at this together. Please DM us. [URL]"
+  },
+  {
+    "id": 15314,
+    "intent": "battery_power_hardware",
+    "customer_query": "4 hrs w/iOS 11.1, no change in battery consumption . Thanks anyway. Can we have iOS 10 back ?",
+    "historical_resolution": "We're sorry to hear you're still having problems. Please DM us and we'll go from there. [URL]"
+  },
+  {
+    "id": 15316,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Still can’t stream [URL]",
+    "historical_resolution": "We're happy to help. Reach us here for more assistance: [URL]"
+  },
+  {
+    "id": 15432,
+    "intent": "battery_power_hardware",
+    "customer_query": "Anyone else having battery issues in IPhone? Degrading way to fast.",
+    "historical_resolution": "Having a reliable iPhone is important, and we want you to enjoy using it without worrying about battery life. Which iPhone do you have, and what's the iOS version it's currently running? DM us with details here: [URL]"
+  },
+  {
+    "id": 15466,
+    "intent": "software_update_glitch",
+    "customer_query": "hi all. and settings apps keep crashing on iOS 11.1.2. See attached video. Is this a known issue? [URL]",
+    "historical_resolution": "Thanks for bringing this to our attention. We'd like to look into this further. Please click here to join us in DM: [URL]"
+  },
+  {
+    "id": 15710,
+    "intent": "software_update_glitch",
+    "customer_query": "Hey , what is going on with the “I️” key in iOS 11.1. When you press it, it defaults to a weird character and skips spaces. [URL]",
+    "historical_resolution": "Let's look into this for you. Send us a DM and we can check on available options. [URL]"
+  },
+  {
+    "id": 15718,
+    "intent": "software_update_glitch",
+    "customer_query": "Actualize a iOS 11.1 y sobrecalienta el equipo",
+    "historical_resolution": "We offer support via Twitter in English. Get help in Spanish here: [URL] or join [URL]"
+  },
+  {
+    "id": 15720,
+    "intent": "account_security_icloud",
+    "customer_query": "6 years later I still can’t access Contacts on iCloud, what do we need to do to finally get this fixed, ? //cc [URL]",
+    "historical_resolution": "You should be able to access your iCloud contacts on the web. DM us, and we'll see what we can do. [URL]"
+  },
+  {
+    "id": 15724,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why my phone doing this????",
+    "historical_resolution": "We’d love to help. To start, please send us a DM letting us your iPhone model. [URL]"
+  },
+  {
+    "id": 17291,
+    "intent": "physical_damage_repair",
+    "customer_query": "So you spend over one thousand pounds on a new #Apple laptop, it breaks, goes in for a two week repair and then comes out... BROKEN AGAIN. I can’t even get through to customer service now. #rippedoff",
+    "historical_resolution": "We're happy to help you out here. Let's meet up in DM, and we can work together. Please let us now a few more details about the issue as well as the type of Mac and your current country as our options are a little different around the globe. [URL]"
+  },
+  {
+    "id": 17304,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "how come when I am listening to my music keeps pausing by itself????? I’m sorry I listen to Spotify and not Apple Music but Spotify is simply better. I’m sick of your shit Apple",
+    "historical_resolution": "We'll do everything we can to help you figure out what's happening. To start, what type of device are you using? Along with that, please confirm which version of the operating system is currently installed. Send over those details to us via DM. [URL]"
+  },
+  {
+    "id": 17306,
+    "intent": "software_update_glitch",
+    "customer_query": "in a matter of 4 hours i had to make 3 hard resets on my phone, i just made 2 hard resets on this phone’s life before iOS 11. fix this",
+    "historical_resolution": "Certainly not what we want you to experience. We'd love to look into this with you and help resolve ensure your iPhone is working 100% as expected. Please DM us and let us know which iPhone and the exact version of iOS you're using. [URL]"
+  },
+  {
+    "id": 18832,
+    "intent": "software_update_glitch",
+    "customer_query": "I’m still waiting when will fix #applemusic bug of iOS 11. On the main screen when music is playing time is not counting. Does anyone else has the same problem? [URL]",
+    "historical_resolution": "Let's work together to sort this out. Which iOS version is running on your iPhone? Does restarting seem to help, even if only temporarily? When you play your songs in the Apple Music app instead of the lock screen, does it show how much time has elapsed? DM us here: [URL]"
+  },
+  {
+    "id": 18834,
+    "intent": "physical_damage_repair",
+    "customer_query": "Ur customer support wants me to speak to another repair center to see if they’ll quote a lesser price! I mean, REALLY!! Gotta be kidding me. I used to swear by Apple Customer Service. Is this the best that you guys can do now?",
+    "historical_resolution": "We know how much we rely on our iPad from surfing the internet to sending emails to watching movies. We'll be happy to look into your situation. Can you DM us if the device turns on at all? Does it boot to an Apple logo? [URL]"
+  },
+  {
+    "id": 18870,
+    "intent": "physical_damage_repair",
+    "customer_query": "the screen on our iPad Pro has stopped working 😔. I've read a few articles about weak screens on some models - is there anywhere I can check the model number, or will it be a £400 repair bill? Thanks",
+    "historical_resolution": "Thank you for reaching out to us. We'd be happy to try everything possible to provide the best support options. First, let's work as a team as we gather more information. DM us if you noticed any changes before the screen went black. What iOS is the device running? [URL]"
+  },
+  {
+    "id": 18873,
+    "intent": "physical_damage_repair",
+    "customer_query": "the screen had green lines on one side and then stopped working altogether. Afraid I can't remember the OS, I expect it was in the latest OS when it broke about 8 weeks ago if hat helps?",
+    "historical_resolution": "Indeed that is very helpful. We'd like to gather more information from you. Please click on the link to continue this conversation in DM. [URL]"
+  },
+  {
+    "id": 18885,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "my Apple Watch has been like this for 2 days any suggestions. Also tried to do a reboot but to no avail. [URL]",
+    "historical_resolution": "Thanks for the photo, and for reaching out to us. We'll do all we can to get your Apple Watch up and running for you. We'd like a few details from you in order to assist. Please meet us in DM so we may ask some isolation questions, and resolve your issue. [URL]"
+  },
+  {
+    "id": 18887,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "What should I do ? 🤕 my iPhone's temp feels normal though [URL]",
+    "historical_resolution": "We can look into what's happening with the flash on your iPhone. How long have you been seeing this? Does a restart help? Which version of iOS are you using? You can check that in Settings > General > About. Let us know in DM and we'll work from there. [URL]"
+  },
+  {
+    "id": 18891,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "My iphone 7 stuck on apple logo and keep rebooting , What can i do to fix it without losing any data !",
+    "historical_resolution": "That is not the experience we want you to have. Let's work as a team to get the iPhone up and running. First, we will need to gather more information. Please DM us the iOS version and what was happening before the device began restarting. [URL]"
+  },
+  {
+    "id": 20020,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "12/9TB of storage completely unusable and what happened to the data? What’s up Apple? 2/2 [URL]",
+    "historical_resolution": "We'll be happy to see how we can help. Which Mac are you using this with?"
+  },
+  {
+    "id": 21133,
+    "intent": "software_update_glitch",
+    "customer_query": "just installed your latest update on my 6s, it failed, and now my phone won't even restore \"error 21\", thanks apple",
+    "historical_resolution": "We're happy to help get your iPhone back up and running. To start, check out the steps for that error here: [URL]"
+  },
+  {
+    "id": 21135,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Version 11.11 (15B150)",
+    "historical_resolution": "Thanks! We'll want to get your iPhone updated to iOS 11.1.2. Here's how: [URL]"
+  },
+  {
+    "id": 21154,
+    "intent": "software_update_glitch",
+    "customer_query": "Day 6 in the iTunes Lockout. I cannot get help or explanation. Cannot download apps, update them or play music on my iPhone. I bet some angry employee locked a thousand accounts and now won't pick up at 1-866-9703764 #BadApple",
+    "historical_resolution": "That is not the experience we want you to have. We'd be happy to look into this with you. Can you DM us what you are experiencing with your iTunes account? What do you currently see on the screen? Are you signed in to the account? We'll continue this in DM. [URL]"
+  },
+  {
+    "id": 22987,
+    "intent": "battery_power_hardware",
+    "customer_query": "Trying to download an app to a family member's phone that I purchased as the family group organizer. Being asked to purchase it, but I don't want to be charged again. Suggestions? [URL]",
+    "historical_resolution": "We can help. As long as this app supports Family Sharing, you'll be able to download it by following the steps in our article. Give them a shot, and let us know if this continues: [URL] [URL]"
+  },
+  {
+    "id": 22989,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "More My iPhone X makes a sounds when gently pressed on opposed corners, was told it was software (Apple Store), this isn't software, Please help!",
+    "historical_resolution": "Hello. We'd love to help with your concern, but we would need to gather some details on your description of the concern. Could you send us a DM and let us know the iOS version installed? Also, did it seem like this since first using the iPhone X? [URL]"
+  },
+  {
+    "id": 22992,
+    "intent": "software_update_glitch",
+    "customer_query": "This is the sound iOS 11.1.2 [URL]",
+    "historical_resolution": "Thanks for that video. Let's look deeper into this with you. DM us what country you are in and we'll continue from there. [URL]"
+  },
+  {
+    "id": 22993,
+    "intent": "software_update_glitch",
+    "customer_query": "help!! My Mac App Store will not open so I cannot update my 2015 MacBook Pro currently running on OS X Yosemite 10.10.3",
+    "historical_resolution": "We'll be happy to assist. Are you getting any errors when you try to open the Mac App Store?"
+  },
+  {
+    "id": 22996,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "No error messages show up. The app will not open from the dock, applications folder, or any other location.",
+    "historical_resolution": "When did you start to see this happening? Have you tried safe mode yet? If not here's how: [URL]"
+  },
+  {
+    "id": 22998,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "This started a few months ago. I tried safe mode and had no success",
+    "historical_resolution": "Let's dig further in via DM to see what we can figure out. Are you able to access iTunes and the iTunes store fully? [URL]"
+  },
+  {
+    "id": 23078,
+    "intent": "battery_power_hardware",
+    "customer_query": "My MacPro is burning up while in sleep mode. Reliably returning to a computer thats been overheating for hours. Who pays when something burns out on a super expensive machine due to a glitch?! #Apple #MacPro",
+    "historical_resolution": "This is not an expected nor does it sound normal. We can understand your view on this and would like to take a closer look. Can you let us know where this heat seems originate on the Mac? Send us a DM. [URL]"
+  },
+  {
+    "id": 23081,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "The problem has seemed to resolve itself. Thanks so much for replying. If I have any further problems I will message.",
+    "historical_resolution": "That's great news! Thanks for keeping us updated. If you run into any other issues, please let us know. Have a great weekend."
+  },
+  {
+    "id": 23083,
+    "intent": "software_update_glitch",
+    "customer_query": "I have tried it on different WiFi and cell data. It seems to not work. Then quite some time after I have tired to download it will pop up multiple times to allow it to download then later it downloads out of no where. So it’s strange.",
+    "historical_resolution": "We definitely understand where you're coming from. Let's take a deeper look into this. Send us a DM and we'll get started. [URL]"
+  },
+  {
+    "id": 23085,
+    "intent": "software_update_glitch",
+    "customer_query": "I decided to download IOS 11. Now I can’t download anything from the App Store. Is this problem being fixed soon? I’ve tried all the options to make it work. #worstdecisionever",
+    "historical_resolution": "We know how important apps and app updates can be. We'd like to help. Does this happen when you're using Wi-Fi or cellular data? Is there another network you can try?"
+  },
+  {
+    "id": 23088,
+    "intent": "software_update_glitch",
+    "customer_query": "It cuts on but only to the apple logo and then it turns off again and idk iOS 10",
+    "historical_resolution": "Have you had a chance to connect to your charger? Please let us know in DM what happens when you do that. [URL]"
+  },
+  {
+    "id": 23090,
+    "intent": "software_update_glitch",
+    "customer_query": "my phone crashed for no reason. What you gonna do about it? I'm stressed and depressed right now. Thanks",
+    "historical_resolution": "We're happy to help. When you say your iPhone crashed, could you please provide a few more details? Also, which software version are you using?"
+  },
+  {
+    "id": 23092,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Dear what happened to ‘Play Next’?",
+    "historical_resolution": "Thanks for reaching out. We'd like to know more to help. Are you referring to the Podcast app, Music or a different app? Let us know and we'll take it from there."
+  },
+  {
+    "id": 23098,
+    "intent": "battery_power_hardware",
+    "customer_query": ", why do I keep getting charged over £20 for anything I buy from iTunes? Bought an album for £4.99 and got charged £20.67. Same thing happened a couple of weeks ago to. Why?! [URL]",
+    "historical_resolution": "Our iTunes Store team would be happy to look into this with you. Reach out to them here: [URL]"
+  },
+  {
+    "id": 23101,
+    "intent": "software_update_glitch",
+    "customer_query": "And by the way, since iOS 11, Minecraft doesn’t work if I’m on the wi-fi so I cannot play with my son anymore. I see the logo and a white screen forever. If I desactivate the wi-if, the game open normally.",
+    "historical_resolution": "OK! Thank you for those details. So we can take a closer look, please let us know in DM if you have updates available for either app in the App Store. [URL]"
+  },
+  {
+    "id": 23104,
+    "intent": "software_update_glitch",
+    "customer_query": "The developper of Videoshop has been able to reproduce the bug and said it is a problem with iOS 11 and he can’t do anything about that problem. Sorry but... what is DM? (I’m sorry if it’s a stupid question)",
+    "historical_resolution": "No worries. DM refers to Direct Message. It's a space that'll provide more room for us to work. You can get there using this link: [URL]"
+  },
+  {
+    "id": 23105,
+    "intent": "physical_damage_repair",
+    "customer_query": "All website. I can record with audio. The recording are playing well in Photos and the sound is ok. But when I import them in iMovie, the sound doesn’t follow. Only if I was in Safari when I made the screen recording",
+    "historical_resolution": "Is this iMovie for iOS or for the Mac?"
+  },
+  {
+    "id": 23108,
+    "intent": "physical_damage_repair",
+    "customer_query": "11.1.2 and the bug with the sound when you record screen on website or try to edit in iMovie still there!",
+    "historical_resolution": "We're happy to help out. Can you tell us more about these issues? Thanks!"
+  },
+  {
+    "id": 23112,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Thanks for the direct link. I left a note.",
+    "historical_resolution": "You're welcome. We're here to help if you have questions in the future."
+  },
+  {
+    "id": 23114,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Thanks! But it used to be so nice when I could limit the number of episodes downloaded but still have some pre-downloaded for flights n things. Is the setting coming back?",
+    "historical_resolution": "While we don't have a direct answer for you today, we’d encourage you to leave feedback at: [URL]"
+  },
+  {
+    "id": 23116,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hi, it looks like I can no longer set the Podcasts app to only keep two recent episodes, and now a bunch of my podcasts are piling up and eating up my storage. Am I missing something or is this setting gone forever?",
+    "historical_resolution": "Thanks for the question. You can navigate to Settings > Podcasts and set the download feature to manual. This will keep episodes from downloading until you are ready. Also, you can set it up to delete played episodes."
+  },
+  {
+    "id": 23121,
+    "intent": "physical_damage_repair",
+    "customer_query": "you guys are terrible back in October you said you’d send me something so I could send in my AirPods for repair since they didn’t work when I bought them. You never sent them to me at fort sill. Thanks!",
+    "historical_resolution": "We are happy to help. Please DM us and we will continue from there. [URL]"
+  },
+  {
+    "id": 23123,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "So how many attempts do I get and what happens if i Enter the wrong code???",
+    "historical_resolution": "After attempting so many tries to enter the Restrictions passcode, your device will prompt you to wait an extended time before letting you try again."
+  },
+  {
+    "id": 23133,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Can you tell me how I can scan a document into notes, if I’ve already taken a picture of it, i.e. I want to use the image that’s already in my photo library. I can’t see a way to do this. Thanks!",
+    "historical_resolution": "Sure thing! We are glad to help! Could you let us know which iOS version you are running? The process has changed a little, and we want to make sure we’re giving you the best direction. You can find this info at Settings > General > About."
+  },
+  {
+    "id": 23135,
+    "intent": "software_update_glitch",
+    "customer_query": "come on you guys removed the option to leave a group conversation! ugh!! 🤦🏽‍♀️ please bring that option back ASAP #ios1112 #iphoneX #overit",
+    "historical_resolution": "Thanks for reaching out. You can still leave a group text if you're using iMessage. If any users are not using iMessage, you can then mute the notifications. This article explains in more detail: [URL] We're here if you have any questions."
+  },
+  {
+    "id": 23138,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Is this only for the iPhone X because I have a friend where she was able to leave a Work group conversation using her iPhone and not everyone on the group chat has an Iphone.",
+    "historical_resolution": "If you're using iOS 11, a group message including users not on iOS devices can be muted, but you won't have the option to leave the group. You're welcome to leave feedback about this feature here: [URL]"
+  },
+  {
+    "id": 23141,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hello can you fix the keyboard bug in landscape mode? [URL]",
+    "historical_resolution": "We'd like to take a closer look at this with you to figure out what's going on. Reach out to us via DM. When you do, be sure to confirm what type of device you're using, along with the specific version of iOS 11 that's currently installed. [URL]"
+  },
+  {
+    "id": 23163,
+    "intent": "software_update_glitch",
+    "customer_query": "Just started happening last week and iOS is up to date",
+    "historical_resolution": "Thanks for letting us know. Have you had a chance to check the ringer volume on your iPhone? Alarms match the volume you set for your ringer, so that alarm sound may be too low. DM if you check these settings, and need further assistance. [URL]"
+  },
+  {
+    "id": 23165,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "My worst fear came true... my iPhone alarm isn’t working and never went off this morning",
+    "historical_resolution": "Hello. We are here to help. Has this happened previously. Also, what is your iOS version?"
+  },
+  {
+    "id": 23175,
+    "intent": "physical_damage_repair",
+    "customer_query": "The music app. Press on the icon and I get flash of a a black screen before returning to home. Have rebooted and reset",
+    "historical_resolution": "Alright. Thanks for providing those added details. Rebooting is a great troubleshooting step to try. Just to clarify, can you tell us the steps that were taken to reset the device? We've received your DM and can continue there. [URL]"
+  },
+  {
+    "id": 23177,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "upgraded to 11.1.2 and iTunes Player won’t work on iPhone 7. ANNOYING",
+    "historical_resolution": "Let’s work together to get this resolved. To be sure we’re on the same page, are you noticing and issue with the Music app, or a different app?"
+  },
+  {
+    "id": 25244,
+    "intent": "battery_power_hardware",
+    "customer_query": "11.1 battery. Hi, I've noticed a significant decrease in battery life since upgrading my SE to IOS 11. 50% less!",
+    "historical_resolution": "Great battery life is part of what gets you and your iPhone through your day, and we want to make sure we get this resolved for you. So we can get started, how long has it been since you've updated? Did this start as soon as you updated? [URL]"
+  },
+  {
+    "id": 25246,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "i’ve tried restarting it a couple of times and no luck, just deleted it and i’m still getting the notification",
+    "historical_resolution": "Great job trying that. Besides downloading that game, have you downloaded anything else prior to this happening? Music or any other apps? Have you updated or restored from a backup recently? And, which iOS version is found at Settings > General > About? [URL]"
+  },
+  {
+    "id": 25249,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I bought this phone on Friday and restored from a back up, it looks as if everything’s restored but it’s telling me it hasn’t here [URL]",
+    "historical_resolution": "Thanks for the screenshot, that really helps. Let's meet in DM and we can continue there. [URL]"
+  },
+  {
+    "id": 25250,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "ever since I downloaded Animal Crossing I keep getting these notifications even though it’s fully downloaded and I’ve been playing it :( please help [URL]",
+    "historical_resolution": "We can see how that would get in your way. Have you restarted your iPhone as a troubleshooting step? If you already have done so, let's delete Animal Crossing and see if this still occurs. If the error message ceases, we'll reinstall and go from there."
+  },
+  {
+    "id": 25265,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why does it keep changing to I.T?",
+    "historical_resolution": "You're in the right place for help! To guide us through troubleshooting steps, may we have the device and iOS version you're having this issue with?"
+  },
+  {
+    "id": 25316,
+    "intent": "software_update_glitch",
+    "customer_query": ", I just wanted to let you know that this is the second time facing a problem (sudden shutdown) with my iPhone which lead me to restore, delete everything and fresh install due to your recent software updates. Pls fix this issue quickly!!",
+    "historical_resolution": "We're glad you reached out to let us know. It's never our intention for you to have issues after updating the iOS on your iPhone. Did restoring help? If not, send us a DM and let us know. We're always happy to help work through any concerns with your iPhone. [URL]"
+  },
+  {
+    "id": 25319,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Thanks for ur quick reply, yes it works for me. But I hope I will not face same problem in the future.",
+    "historical_resolution": "We have the same hope. If you do run into issues with an update in the future, we'll be here for you."
+  },
+  {
+    "id": 25422,
+    "intent": "software_update_glitch",
+    "customer_query": "Bluetooth connection iPhone X to Infiniti is terrible. Garbled and scratchy cutting in and out >30% of time. Didn't happen W iPhone 6!!",
+    "historical_resolution": "We want you to be able to enjoy your iPhone X with your Bluetooth devices. We'll do all we can to help. To start, what iOS version is currently installed? Does this issue occur with any other Bluetooth devices that you connect to?"
+  },
+  {
+    "id": 25425,
+    "intent": "software_update_glitch",
+    "customer_query": "11.1.2. I haven't tried it yet with my little Bluetooth sound bar at home but will soon.",
+    "historical_resolution": "Thank you. Please let us know. If the issue is only with CarPlay, your firmware may need to be updated. Please visit us here: [URL] for more information."
+  },
+  {
+    "id": 26669,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "No thanks. I’d rather switch to Android than discuss this further.",
+    "historical_resolution": "We'll be here should you need to reach out again for help as we understand wanting to enjoy your device. Have a good one."
+  },
+  {
+    "id": 26671,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Oh and would you look at that..... hope you can decipher what that says. It’s like reading hieroglyphics. 👏🏼",
+    "historical_resolution": "Let's continue within DM here: [URL]"
+  },
+  {
+    "id": 26680,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "tell me why the i keeps doing this stupid shit A with the boxed question mark make it stop",
+    "historical_resolution": "Here’s what you can do to work around the issue until it’s fixed in a future software update: [URL]"
+  },
+  {
+    "id": 26682,
+    "intent": "software_update_glitch",
+    "customer_query": "Teally upset, downloaded latest 11.0 update now apps will not work on iPhone or IPad. Tech support was worthless after 120 minutes tried to blame me! Getting new phone and different notebook. This is outrageous!",
+    "historical_resolution": "We'd be happy to look into this with you. Feel free to DM us what country you're located in and we'll go from there: [URL]"
+  },
+  {
+    "id": 26690,
+    "intent": "physical_damage_repair",
+    "customer_query": "my iphone is still glitchy, keeps swapping screens when I try to type.",
+    "historical_resolution": "Thank you for reaching out. We want to help. To start, can you tell us which iPhone and iOS you’re using?"
+  },
+  {
+    "id": 26694,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hey I️ think we need to have a talk #applebug #iphoneglitch [URL]",
+    "historical_resolution": "Here’s what you can do to work around the issue until it’s fixed in a future software update: [URL]"
+  },
+  {
+    "id": 26703,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yes thank you! So I downloaded \"Harry Styles: Behind the Album/ Behind the Music Video\" in May. And now suddenly I just can't watch it",
+    "historical_resolution": "Are you able to play other videos and music without issue?"
+  },
+  {
+    "id": 26706,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yes it's just that one",
+    "historical_resolution": "Was this purchased or was it content that was available for free? Also, was it downloaded to your device or did you stream it?"
+  },
+  {
+    "id": 26709,
+    "intent": "software_update_glitch",
+    "customer_query": "Maybe it's the phone making problems? Maybe I should do the iOS updates?",
+    "historical_resolution": "Which iOS version are you currently using? Let us know in a DM. [URL]"
+  },
+  {
+    "id": 26715,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I hit up your DMs",
+    "historical_resolution": "We appreciate that. We did receive your DM, so check for a response there shortly. [URL]"
+  },
+  {
+    "id": 26717,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hey is this covered under warrantee? Gonna take 40 minutes for a tech to see it at the AppleStore near me. [URL]",
+    "historical_resolution": "Are you currently in an Apple Store? Let's meet up in DM to discuss our options."
+  },
+  {
+    "id": 26721,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "i would rather be called a peasant than use a phone that glitches out when “I️” type the letter “I️” figure your shit out.",
+    "historical_resolution": "Here’s what you can do to work around the issue until it’s fixed in a future software update: [URL]"
+  },
+  {
+    "id": 27329,
+    "intent": "software_update_glitch",
+    "customer_query": "force touch for app multitask gone in iOS11 ?",
+    "historical_resolution": "That feature isn’t a part of iOS 11. We always enjoy hearing feedback. Please submit yours here: [URL]"
+  },
+  {
+    "id": 27439,
+    "intent": "software_update_glitch",
+    "customer_query": "all of a sudden I am getting emails pushed via apple mail- I’ve had them set as fetch for a long time. Can’t find where to change back to fetch. The only change I have made is software update. HALP! I don’t want all these to push.",
+    "historical_resolution": "We can understand not wanting the incoming emails to push through. We'll get to the root cause of this, and find you the information you need. In order to do so, we have some questions for you. Please meet us in DM with your current iOS and we'll go from there. [URL]"
+  },
+  {
+    "id": 27503,
+    "intent": "software_update_glitch",
+    "customer_query": "Yes i am able to update them using cellular data. And yes i update all of them at once",
+    "historical_resolution": "Thanks so much for letting us know. Since it's been isolated to a Wi-Fi issue, we want to rule out Wi-Fi connection settings and software on the device itself. Please meet with us in DM so we can continue to work together. [URL]"
+  },
+  {
+    "id": 27505,
+    "intent": "software_update_glitch",
+    "customer_query": "I am using iOs 11.1.2 in my iphone 6s.. as soon as put the apps in update, they get pending to get updated and later on failureof update notice pops up",
+    "historical_resolution": "We understand how important it is to keep your apps up to date. So we're clear, are you trying to update all or one at a time? Are you able to update using cellular data?"
+  },
+  {
+    "id": 27507,
+    "intent": "software_update_glitch",
+    "customer_query": "Unable to update apps when connected to WiFi.",
+    "historical_resolution": "Thanks for reaching out to us about this issue. We want your device to work for you and we'll be happy to help out. To get started, can you tell us which device and OS version you're having this problem with? Also, what happens when you try to update?"
+  },
+  {
+    "id": 27509,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "please tell why my new iPhone 8 keeps telling me that iMessage is waiting for activation",
+    "historical_resolution": "We want to do all we can to get your iMessage working on your new iPhone 8. Please let us know in DM, what iOS software is currently installed on the device, along with the exact error message you're seeing. We'll be happy to help from there. [URL]"
+  },
+  {
+    "id": 27512,
+    "intent": "software_update_glitch",
+    "customer_query": "Latest version of iOS. It says a error occurred during activation. Turned phone off and on. Nothing. New phone just set it this evening",
+    "historical_resolution": "We received your DM and have responded there."
+  },
+  {
+    "id": 29546,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I GOT IT TO WORK thanks to chatting w/a tech who had another one call and help me out! Thanks so much!! xxoo",
+    "historical_resolution": "We are happy to hear all is working as expected again. Enjoy the rest of your day."
+  },
+  {
+    "id": 29548,
+    "intent": "software_update_glitch",
+    "customer_query": "Sometimes they're connected, sometimes they're not. Sometimes it even says bluetooth not available in the bar on top yet one will be connected!? Started after I updated.",
+    "historical_resolution": "You mentioned the Bluetooth icon shows as not available sometimes. Is the Bluetooth icon grayed out at the top? When this occurs, are you able to toggle Bluetooth on and off via System Preferences? Let's dig into this deeper over DM: [URL]"
+  },
+  {
+    "id": 29550,
+    "intent": "software_update_glitch",
+    "customer_query": "Since the newest update my MAC won't stay connected to my mouse & kb (bluetooth). Help !?!",
+    "historical_resolution": "We know how essential Bluetooth is to using wireless devices. We'll be happy to work with you to get to the bottom of this. To confirm, you updated to macOS 10.13.1, correct? Have you tried unpairing and repairing your Bluetooth devices?"
+  },
+  {
+    "id": 29554,
+    "intent": "software_update_glitch",
+    "customer_query": "your new iOS slowdown my phone and delayed everything. you should know by now that some folks works with their phone and you can messe up people work. Test the damn thing before lunch it. Or come up with a big warning “it slow down 6.7",
+    "historical_resolution": "We understand how important your iPhone is, and we're here to help. Send us a DM, and we'll take a closer look at your device together there. [URL]"
+  },
+  {
+    "id": 29559,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "And this is my textbook and one on top is Airbnb [URL]",
+    "historical_resolution": "Thank you for showing us those screenshots. Which version of iOS 11 do you have on your iPhone right now? You can check at: Settings > General > About Does the logo return to normal after the app loads? Does this happen with all apps?"
+  },
+  {
+    "id": 29562,
+    "intent": "software_update_glitch",
+    "customer_query": "Other wired thing before I update I had 6 gig available and after I have 10 more. I don’t know why",
+    "historical_resolution": "Did this just happen when you updated to iOS 11.1.2 or did you notice it with a previous iOS update? Did the slowness start with this update or a previous update? Let us know in DM. We'll continue there. [URL]"
+  },
+  {
+    "id": 31406,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "the I️ keeps autocorrecting to a strange symbol",
+    "historical_resolution": "Let's look in to this issue together. Which iOS version is installed? You can find that from Settings > General > About."
+  },
+  {
+    "id": 31411,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "That worked. Thank you.",
+    "historical_resolution": "You're very welcome. Please let us know if there's anything else we can do for you."
+  },
+  {
+    "id": 31413,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It’s still happening",
+    "historical_resolution": "Let's continue to work together on this issue. Send us a DM. [URL]"
+  },
+  {
+    "id": 31418,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "#iphoneissues why is my phone recognizing capital i as an emoji? This is annoying. i can’t write professional emails for work [URL]",
+    "historical_resolution": "We'd be happy to help. Let's move over to DM. Let us know your iOS version. [URL]"
+  },
+  {
+    "id": 31423,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "would be nice if you guys fixed your stuff so I can type I normally instead of I️ popping up every time..",
+    "historical_resolution": "We're here to help. Let's take this to DM so we can better assist you. [URL]"
+  },
+  {
+    "id": 31428,
+    "intent": "software_update_glitch",
+    "customer_query": "iOS11 I’ve tried resetting the keyboard it didn’t work.",
+    "historical_resolution": "Join us in DM and send us a screenshot of Settings > General > About. [URL]"
+  },
+  {
+    "id": 31429,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hey my keyboard is going haywire when I️ type I️ #help [URL]",
+    "historical_resolution": "We'd like to help. Which software version are you using on your iPhone?"
+  },
+  {
+    "id": 31437,
+    "intent": "account_security_icloud",
+    "customer_query": "Just used your \"chat\" portion on help, it won't let me chat with anyone. My apple ID has been very buggy",
+    "historical_resolution": "You can follow the steps listed in \"Cancel Order\" section to have this canceled: [URL]"
+  },
+  {
+    "id": 31439,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yes, same thing. Its not working. I'm trying on both my account and as a guest. It says both times that I do not have access.",
+    "historical_resolution": "Meet us in DM with your location (country), please. [URL]"
+  },
+  {
+    "id": 31440,
+    "intent": "software_update_glitch",
+    "customer_query": "can you tell me why my Apple tv4 with screen saver set to never update will suddenly have new a “video” in the aerial views?",
+    "historical_resolution": "Thank you for reaching out to us. For help with this, please contact our Apple TV experts here: [URL]"
+  },
+  {
+    "id": 31443,
+    "intent": "software_update_glitch",
+    "customer_query": "Hey I think my phone has dementia. No matter how many times I tell it not to update, it keeps asking.",
+    "historical_resolution": "While this is expected to send reminders, you can leave us feedback about that here: [URL]"
+  },
+  {
+    "id": 31446,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hey So it’s been like this for a while, from 10.13 to 10.13.1, even under the Technology Preview version, any idea? [URL]",
+    "historical_resolution": "We want to take a look at this with you. Reach out to us in DM with more information. [URL]"
+  },
+  {
+    "id": 31448,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "#AppleWatch #os4.1 has a glitch. November Challenge show I’ve burnt a lot of calories in just 14.5 hrs [URL]",
+    "historical_resolution": "We'll be happy to help out. To clarify, did October record calorie burning accurately or is this a new issue for November?"
+  },
+  {
+    "id": 31451,
+    "intent": "software_update_glitch",
+    "customer_query": "October challenge was fine. November challenge went weird after update",
+    "historical_resolution": "Which iPhone model do you have and what's the exact iOS version installed? Any steps tried so far? [URL]"
+  },
+  {
+    "id": 31452,
+    "intent": "software_update_glitch",
+    "customer_query": "Hi after upgrading to iOS 11.1 this control center dunno where to stay - up, middle and down. Now in the upper section. ios11 [URL]",
+    "historical_resolution": "Hey, we'd love to help with your AssistiveTouch. Let's try a standard restart, here's how: [URL]"
+  },
+  {
+    "id": 31456,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Thanks! I guess I know the reason why.Wherever u put the assistive touch up,down,middle & when pressed is also where the control center is.",
+    "historical_resolution": "That is expected for Assitive Touch. The following article provides more information. [URL] [URL]"
+  },
+  {
+    "id": 31462,
+    "intent": "software_update_glitch",
+    "customer_query": "Hi my iPhone vibration not working after update iOS 11.0.3,mine is iPhone 6S",
+    "historical_resolution": "iOS 11.1 has just been released. Let's try updating to that and we'll see how things are. Here's how: [URL]"
+  },
+  {
+    "id": 31465,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Ok,I’ll give it a try",
+    "historical_resolution": "We look forward to getting an update from you in the near future."
+  },
+  {
+    "id": 31467,
+    "intent": "software_update_glitch",
+    "customer_query": "Update to latest version,did the restart thing but still no vibrate at all when notifications coming",
+    "historical_resolution": "Let's look into this some more. Send us a DM and let us know anything else you have tried as well as the country you're in. [URL]"
+  },
+  {
+    "id": 31469,
+    "intent": "software_update_glitch",
+    "customer_query": "28 min Benutzung, 42 min Standby: 10% Akku verbraucht. Mit iOS 11.1 hat sich nichts getan, eher noch schlimmer geworden",
+    "historical_resolution": "We offer support via Twitter in English. Contact us for help in your preferred language here: [URL]"
+  },
+  {
+    "id": 31473,
+    "intent": "software_update_glitch",
+    "customer_query": "Ios 11.1 & I can’t even turn off the wifi & bluetooth from the control center!!",
+    "historical_resolution": "We can help. Here's a great article to clarify more about Wi-Fi & Bluetooth in the Control Center: [URL]"
+  },
+  {
+    "id": 31475,
+    "intent": "software_update_glitch",
+    "customer_query": "HELP how can I fix this problem immediately ? #Apple #iOS11",
+    "historical_resolution": "We've gotten your DM and will continue working with you there."
+  },
+  {
+    "id": 31481,
+    "intent": "software_update_glitch",
+    "customer_query": "Help!! I need to update the payment method for my iPhone X pre-order. It won’t let me do it online",
+    "historical_resolution": "We're happy to help you with that. DM us the country you are located in so we can better assist you:"
+  },
+  {
+    "id": 31483,
+    "intent": "battery_power_hardware",
+    "customer_query": "Hey and does this improve iOS11's excessive battery consumption? #iOS11 #ios #apple #battery [URL]",
+    "historical_resolution": "Update improvements can resolve lots of issues. Learn more about iOS 11.1 here for specifics: [URL]"
+  },
+  {
+    "id": 31486,
+    "intent": "battery_power_hardware",
+    "customer_query": "But this does not solve the battery. When will they provide an update that resolves battery consumption?",
+    "historical_resolution": "If you are still experiencing issues with battery life, send us a DM. Let us know if there are any app updates available. [URL]"
+  },
+  {
+    "id": 31492,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I’m turning it off from the control center I believe",
+    "historical_resolution": "OK! Take a look here for the way Wi-Fi functions in the Control Center of iOS 11: [URL]"
+  },
+  {
+    "id": 31859,
+    "intent": "battery_power_hardware",
+    "customer_query": "hey this is the 2nd time I've seen a random $15 charge to my account from itunes on my card and I haven't gotten anything",
+    "historical_resolution": "We'd want to get you in touch with our iTunes Store support here: [URL]"
+  },
+  {
+    "id": 31861,
+    "intent": "software_update_glitch",
+    "customer_query": "Why can't I log into my icloud on my Iphone 7 plus? My phone updated, logged me out of everything and won't take new pw.",
+    "historical_resolution": "We'd like to help. Are you able to log into [URL] successfully? Let us know in DM. [URL]"
+  },
+  {
+    "id": 31867,
+    "intent": "battery_power_hardware",
+    "customer_query": "Battery draining in recent updates of iOS 11.1 on my iPhone 6s. Why please fix it as soon as possible",
+    "historical_resolution": "We've received your DM, and we'll continue working with you there. [URL]"
+  },
+  {
+    "id": 31870,
+    "intent": "battery_power_hardware",
+    "customer_query": "please do something about iOS 11's battery drain issue. I literally have my iPhone 6 plugged in and it's still losing power.",
+    "historical_resolution": "We're here to help. Let's take this to DM so we can better assist you. [URL]"
+  },
+  {
+    "id": 31872,
+    "intent": "account_security_icloud",
+    "customer_query": "My iPhone just signed itself out of iCloud and I lost all of my synced contacts when I tried to sign back in.",
+    "historical_resolution": "Are these contacts on the iCloud website? Check here from a computer and let us know: [URL]"
+  },
+  {
+    "id": 31874,
+    "intent": "physical_damage_repair",
+    "customer_query": "This is self explanatory screen shot of one of example of hanging [URL]",
+    "historical_resolution": "Let's see if updating the iPhone to iOS 11.1 helps. DM us if it doesn't. [URL] [URL]"
+  },
+  {
+    "id": 31882,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I can’t download apps from the app store.",
+    "historical_resolution": "Let’s work together to get your apps downloading again. Are you downloading updates or new apps? Any messages when downloading?"
+  },
+  {
+    "id": 31885,
+    "intent": "software_update_glitch",
+    "customer_query": "Both downloading updates and new apps. No messages shown when I’m downloading.",
+    "historical_resolution": "Excellent information. Please send us a DM telling us which iPhone you have and the iOS version it's currently running. [URL]"
+  },
+  {
+    "id": 31891,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It didn’t work.",
+    "historical_resolution": "Thanks for giving that a try! Go ahead and reach out to us in DM so we can continue troubleshooting together to resolve. [URL]"
+  },
+  {
+    "id": 31892,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I️ hate Chang sometimes, I️ really do. , fix the mystery boxes please. [URL]",
+    "historical_resolution": "We certainly want to help! Which version of iOS are you currently running? Have you updated to iOS 11.1?"
+  },
+  {
+    "id": 31894,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "somebody trying to get into my account",
+    "historical_resolution": "Thanks for reaching out. We want to help. Tell us more about what's happening in DM. [URL]"
+  },
+  {
+    "id": 31898,
+    "intent": "software_update_glitch",
+    "customer_query": "After the last update, I cannot hear my phone calls. What is happening?",
+    "historical_resolution": "Send us a DM and let us know what version of iOS you're currently running. We'll go from there. [URL]"
+  },
+  {
+    "id": 31900,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Nope. what is going on?",
+    "historical_resolution": "We'll be happy to look into this with you. To get started, let us know which iOS version you have installed."
+  },
+  {
+    "id": 31906,
+    "intent": "software_update_glitch",
+    "customer_query": "I updated to 11.1, and so far it works flawlessly! Thanks for the new update!",
+    "historical_resolution": "You're welcome."
+  },
+  {
+    "id": 31907,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yes. It became unstable :(",
+    "historical_resolution": "We understand your concern. Let's work together to solve these issues. Does this Wi-Fi issue happen on all networks?"
+  },
+  {
+    "id": 31910,
+    "intent": "software_update_glitch",
+    "customer_query": "After updating to 10.13.1 to fix freeze issues of High Sierra, I went to a complete black screen. Test product before release",
+    "historical_resolution": "We want to help. Are you still seeing a blank black screen on your Mac? Send us a DM. [URL]"
+  },
+  {
+    "id": 31912,
+    "intent": "software_update_glitch",
+    "customer_query": "iPhone 7 user with iOS 11 having a bug in its calculator app, 1+2+3=24 Thinking of buying a new apple iPhone x (wondering should I) [URL]",
+    "historical_resolution": "We're happy to help you with this. Join us in DM so we may better assist you: [URL]"
+  },
+  {
+    "id": 31919,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Is it just me or does the X to close out your notifications only show up sometimes? Does anyone know how to fix that? [URL]",
+    "historical_resolution": "This is the expected behavior for notifications. Take a look at this: [URL]"
+  },
+  {
+    "id": 31922,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "That’s dumb as hell. Why isn’t there an X to close them out all the time? And not have to wait until an X to appear? Bring the X back!",
+    "historical_resolution": "We can help get you to the right place to make your suggestion. Provide your feedback here: [URL]"
+  },
+  {
+    "id": 31924,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "received this email which i believe happened to be a scammer, sender’s email is suspicious tho. Could u pls clarify this up? [URL]",
+    "historical_resolution": "This is not a legitimate email from Apple. This article explains how to identify and report the email: [URL]"
+  },
+  {
+    "id": 31927,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Noted. Thank you!",
+    "historical_resolution": "No problem, we’re happy to help! Let us know if we can assist with anything in the future. Have a great day!"
+  },
+  {
+    "id": 31930,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Can I pay for  Care + online with an Apple Store gift card or do I have go into the store?",
+    "historical_resolution": "We'll get you pointed in the right direction. Please DM us so we can go over all options. [URL]"
+  },
+  {
+    "id": 31932,
+    "intent": "software_update_glitch",
+    "customer_query": "Why do my tweets have hashtags and square question marks? I’m updated to the latest iOS 11.1 fix me. #apple [URL]",
+    "historical_resolution": "We've received your DM. Please look for a reply from us there."
+  },
+  {
+    "id": 31934,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "So at midnight my phone just went blank, spun the wheel,and asked me to enter my passcode ...wtf since os 11 this randomly :(",
+    "historical_resolution": "Let's take a look at this further for you. Reach out to us in DM with more information. [URL]"
+  },
+  {
+    "id": 31936,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "whenever I type the letter “i” it auto corrects to a “a ?” What is going on!????",
+    "historical_resolution": "Let us help you get this sorted out. Join us in DM so we can better assist you: [URL]"
+  },
+  {
+    "id": 31942,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yo what’s up with this glitch every time I️ try to type the letter “I️” I",
+    "historical_resolution": "We'd like to help you out. Which device are you using and which iOS are you running?"
+  },
+  {
+    "id": 31946,
+    "intent": "software_update_glitch",
+    "customer_query": "7 plus latest iOS",
+    "historical_resolution": "We'd like you to reset your Keyboard Dictionary from Settings > General > Reset. Next, restart your iPhone. Any changes?"
+  },
+  {
+    "id": 31949,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Wait no never mind I️ still can’t type “I️”",
+    "historical_resolution": "We'd be happy to look into this with you further. DM us using the link below and we'll go from there. [URL]"
+  },
+  {
+    "id": 31953,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "everytime I go into social media I cannot DM anyone photos, not on twitter or Facebook. I have over 7k photos here it’s says 0 [URL]",
+    "historical_resolution": "We have received your DM and thank you for the time required to share this information with us, we will respond in DM shortly."
+  },
+  {
+    "id": 31957,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "iPad 11.0.3 iPhone 11.0.3 and yes I have tried unpairing and issue still persisted",
+    "historical_resolution": "We'd recommend creating a backup of the data on both devices and updating to iOS 11.1. Please let us know if this helps."
+  },
+  {
+    "id": 31959,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "iPad and iPhone",
+    "historical_resolution": "Alright, can you tell us what iOS version you're currently on? Also, have you tried unpairing and pairing your AirPods again?"
+  },
+  {
+    "id": 31961,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "AirPods are connected but don’t play audio anymore any troubleshooting tips?",
+    "historical_resolution": "We can certainly take a look! To begin, does this occur with all devices or just one?"
+  },
+  {
+    "id": 31963,
+    "intent": "physical_damage_repair",
+    "customer_query": "shards of glass literally stabbed me when my screen broke. Fuck you apple I phone.",
+    "historical_resolution": "Send us a DM so we can help. We'd like to get some more information on what happened here. [URL]"
+  },
+  {
+    "id": 31965,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I’ve had the same problem all day.",
+    "historical_resolution": "Let's look into this together. Which device are you experiencing this on, and which software version is it running?"
+  },
+  {
+    "id": 32356,
+    "intent": "battery_power_hardware",
+    "customer_query": "Fix our iOS 11.03 battery issue. I’m on a 7 plus.",
+    "historical_resolution": "Send us a DM and let us know how long your battery is lasting. We'll help. [URL]"
+  },
+  {
+    "id": 32358,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "how can I unsubscribe to an auto renewing app in my iPhone?",
+    "historical_resolution": "This resource should do the trick. Check out the steps under 'Turn on Automatic Downloads': [URL]"
+  },
+  {
+    "id": 32361,
+    "intent": "billing_subscription",
+    "customer_query": "I meant auto renewing purchases per week or month like the FemaleFitness app for example",
+    "historical_resolution": "Got it. This article should do the trick for that: [URL]"
+  },
+  {
+    "id": 32365,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It’s glitching when I try to erase pictures or go onto new apps",
+    "historical_resolution": "Let's see what we can do. Send us a DM and let us know what you mean by glitching. [URL]"
+  },
+  {
+    "id": 32368,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "fix your shit. See this I️ get to it girl it’s a glitch",
+    "historical_resolution": "We can definitely look into this with you. Which device are you using? DM us and let us know. [URL]"
+  },
+  {
+    "id": 32370,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I have the iPhone 7 Plus but i can’t do that 😢",
+    "historical_resolution": "Thanks for reaching out. We are always happy to help. Are you running iOS 11.1? If not, learn how here: [URL]"
+  },
+  {
+    "id": 32372,
+    "intent": "software_update_glitch",
+    "customer_query": "Thanks! I have iOS 11.1 but i dont see the new emojis 😫",
+    "historical_resolution": "Thanks for following up. Send us a DM so we can look into this with you there. [URL]"
+  },
+  {
+    "id": 32377,
+    "intent": "account_security_icloud",
+    "customer_query": "Hey , not sure you tested EVERYTHING when implementing the ability to switch #iCloud account emails! [URL]",
+    "historical_resolution": "This is expected behavior. [URL] emails cannot be changed, but you could use an alias: [URL]"
+  },
+  {
+    "id": 32380,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hi. This isn’t expected behaviour as you rolled out a change last night enabling the ability to do this. [URL]",
+    "historical_resolution": "Are you following the steps here to change it: [URL] Let us know in DM. [URL]"
+  },
+  {
+    "id": 32381,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hey this is what happened after 10.13.1 please advise.!! [URL]",
+    "historical_resolution": "We want your Mac to work as expected. Does this message come back up if you click the Restart button?"
+  },
+  {
+    "id": 32384,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Yes. I’m sure sleep wake failure is the cause of this..!",
+    "historical_resolution": "We’d love to help further. To start, please send us a DM letting us know which Mac you’re using. [URL]"
+  },
+  {
+    "id": 32388,
+    "intent": "software_update_glitch",
+    "customer_query": "I just noticed I need to update to 11.1 so I’ll do that and make sure to contact y’all if it does it again!",
+    "historical_resolution": "OK, sounds good. We'll be here for you if you need anything further."
+  },
+  {
+    "id": 32397,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I’m late to the complaining party, but y’all I keep having to restart my phone just to make a call 🙄",
+    "historical_resolution": "Thanks for reaching out; we'd like to help. When did you first encounter this issue?"
+  },
+  {
+    "id": 32399,
+    "intent": "account_security_icloud",
+    "customer_query": "Hey I heard I can change my Apple ID to my email but when I try it says nope. What gives? Spent an hour signing out & in.",
+    "historical_resolution": "We'd be happy to provide you with some info. Start by taking a look at the following article: [URL]"
+  },
+  {
+    "id": 32402,
+    "intent": "account_security_icloud",
+    "customer_query": "Yes. I read and did that. I get a message that says I cannot change my Apple ID to an email ending in . Which is contrary to the document",
+    "historical_resolution": "We'd like to take a closer look at this with you. Send us a DM and we'll meet up with you there. [URL]"
+  },
+  {
+    "id": 32404,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Can y’all fix the I character please?! I️m tired of seeing this I️",
+    "historical_resolution": "We'd like to work on this with you. Which device are you using and which iOS are you on? Check here: Settings > General > About."
+  },
+  {
+    "id": 32406,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hey what is this? [URL]",
+    "historical_resolution": "Let's work together to figure it out. To start, which exact iOS version do you have installed?"
+  },
+  {
+    "id": 32411,
+    "intent": "software_update_glitch",
+    "customer_query": "pls let folks downgrade to ios 10.3.3, been an apple fanboy but iOS 11 is the worst i cant put up with this glitchy OS anymore",
+    "historical_resolution": "We'd like to look into the issues you're having. DM us your country and we'll go from there. [URL]"
+  },
+  {
+    "id": 32413,
+    "intent": "software_update_glitch",
+    "customer_query": "I keep getting a question mark inside a box?? I️ updated my phone and it’s still doing it. 🤦🏽‍♀️",
+    "historical_resolution": "We want to help with this. Reach out to us in DM with more information. [URL]"
+  },
+  {
+    "id": 32415,
+    "intent": "software_update_glitch",
+    "customer_query": "iOS 11 is so slow on my iPhone 5S. For example the camera app takes 5-10 seconds before it can take a photo. What gives?🤦‍♂️",
+    "historical_resolution": "We'd love to look into this. Could you Direct Message us and let us know what iOS version you're on? [URL]"
+  },
+  {
+    "id": 32420,
+    "intent": "software_update_glitch",
+    "customer_query": "hey I'm facing problem updating my Iphone to iOS 11 whenever I wanna update it, a message pop up says verifying",
+    "historical_resolution": "We can help! What happens after it says verifying. Is that when it restarts or are you restarting it manually?"
+  },
+  {
+    "id": 32423,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "After it says verifying it restarts automatically",
+    "historical_resolution": "Understood! Let's try all the steps listed here: [URL] Let us know the results once completed,"
+  },
+  {
+    "id": 32425,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why does my iPhone keep changing my i’s to I️ I️ I️ ??? 🤬🤬🤬",
+    "historical_resolution": "We can help out. Could you Direct Message us and let us know what iOS version you're on? [URL]"
+  },
+  {
+    "id": 32429,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "what’s going on with this issue???",
+    "historical_resolution": "Tell us more about what's happening. Please send us a DM with additional details. [URL]"
+  },
+  {
+    "id": 32432,
+    "intent": "physical_damage_repair",
+    "customer_query": "My iPhone screen glass is completely cracked. Still the touch screen works. Can I change the glass alone or the display too?",
+    "historical_resolution": "We're glad to look into all options with you to have your iPhone serviced. Please DM us to proceed. [URL]"
+  },
+  {
+    "id": 32434,
+    "intent": "software_update_glitch",
+    "customer_query": "ios11 made my 7plus so laggy & it freezes on apps 24/7. Please fix this",
+    "historical_resolution": "We can help with that and want your iPhone working as expected. To clarify, which version of iOS 11 do you have installed?"
+  },
+  {
+    "id": 32440,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "It looks like spam, but it bypassed my spam filter. cc: [URL]",
+    "historical_resolution": "Sure is phishing. Learn more about phishing and suspicious emails, as well as how to report them here: [URL]"
+  },
+  {
+    "id": 33314,
+    "intent": "software_update_glitch",
+    "customer_query": "Why did my phone turn to shit after all these recent updates? 🤔",
+    "historical_resolution": "We want your iPhone running great, too. What obstacles are you facing that we can help with today?"
+  },
+  {
+    "id": 33317,
+    "intent": "battery_power_hardware",
+    "customer_query": "Battery dies fast as hell now. Phone always is freezing up and I end up having to wait like 15 minutes for it to get unfreeze",
+    "historical_resolution": "Got it. Which iPhone and iOS version are you using under Settings > General > About?"
+  },
+  {
+    "id": 33319,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "7 Plus and 11.0.3",
+    "historical_resolution": "Install our newest iOS 11.1 update to help: [URL] Let us know if this helps improve these issues."
+  },
+  {
+    "id": 33326,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Eu tbm, ja redefini varias vezes a senha e nada, mas ai o suporte me mandou um link e eu marquei hj para alguém da apple me ligar e ajudar.",
+    "historical_resolution": "Since our Twitter support is available in English, get help at [URL] or join [URL]"
+  },
+  {
+    "id": 33327,
+    "intent": "battery_power_hardware",
+    "customer_query": "I updated to iOS 11.1 and the phone get really warm and the battery dropped by 10% in 10 minuets when I watched videos in YouTube. iPhone 7+",
+    "historical_resolution": "That should not be happening. Let us help. Tell us more about this in DM. [URL]"
+  },
+  {
+    "id": 33336,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "the weird symbol thing when I️ type happens to me",
+    "historical_resolution": "You've come to the right place for help. What type of device are you using? Let us know via DM. [URL]"
+  },
+  {
+    "id": 33342,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "The newer version and the 7 plus",
+    "historical_resolution": "Thank you. Are all of your apps up to date? Send us a DM, and we'll go from there. [URL]"
+  },
+  {
+    "id": 33350,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Why am I loosing songs I’ve downloaded on Apple Music. It won’t let me download them again either. Greyed our on playlists too",
+    "historical_resolution": "Thanks for getting in touch. We'd like to assist. DM us and we'll go from there. [URL]"
+  },
+  {
+    "id": 33352,
+    "intent": "software_update_glitch",
+    "customer_query": "#iOS11.1 is taking iPhones into consistent boot loops !! It remains for a couple of hours boot looping over and over then it gets back on again. This happened since the betas. I thought it's a bug but even now with the official 11.1 it happened. [URL]",
+    "historical_resolution": "Let's get this resolved. Are you still experiencing this issue? Reply in DM to get started. [URL]"
+  },
+  {
+    "id": 33354,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "(Saurabh at Singapore, kindly get in touch with your team to brief what you said, they are coming up with new stories #macbook",
+    "historical_resolution": "We'd like to hear more about this complaint. DM us with more details at the link below please. [URL]"
+  },
+  {
+    "id": 33356,
+    "intent": "software_update_glitch",
+    "customer_query": "Congrats. IOS 11.1 is making my iPhone 6 even more glitchy and prone to freezing than it was before. #WTF",
+    "historical_resolution": "We'd like to look into this with you. Please click here to connect with us in DM. We'll continue there. [URL]"
+  },
+  {
+    "id": 33370,
+    "intent": "battery_power_hardware",
+    "customer_query": "Please fix your Siri on iOS 11 cuts out mid sentence it’s very annoying and it eats the battery like there’s no tomorrow!!!!",
+    "historical_resolution": "We're happy to assist. Which iOS 11 version are you currently running? Go to Settings > General > About for the version."
+  },
+  {
+    "id": 33373,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "The latest one.",
+    "historical_resolution": "We want to look into this further with you. Can you send us a DM and let us know the device model you're using? [URL]"
+  },
+  {
+    "id": 33378,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "My watch seemed to auto dial the sos line whilst I was cycling this morning.",
+    "historical_resolution": "Check out the following article for more info on SOS dialing with the side button of your watch: [URL]"
+  },
+  {
+    "id": 33381,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "- what is up with the letter “eye” button ?! for like a 4 days now, the letter “eye” has been turning into this i️ 😐",
+    "historical_resolution": "We'd like to look into this. To start, which device are you experiencing this on, and which software version is it running?"
+  },
+  {
+    "id": 33388,
+    "intent": "software_update_glitch",
+    "customer_query": "My phone is experiencing the same thing and I️ have the 7 with the latest update...",
+    "historical_resolution": "We'd like to look into this with you. DM us and we'll go from there. [URL]"
+  },
+  {
+    "id": 33387,
+    "intent": "software_update_glitch",
+    "customer_query": "iphone 8 plus. the latest update. this has been happening on several other phones i️ use. i️ believe this is a software issue",
+    "historical_resolution": "Thanks for that information. DM us the exact iOS version your iPhone is running, and we'll continue from there. [URL]"
+  },
+  {
+    "id": 33393,
+    "intent": "software_update_glitch",
+    "customer_query": "Whats wrong with you ? I can't believe that you can't fix that in three iOS 11 public releases #ios11 #contacts #apple [URL]",
+    "historical_resolution": "We're here to help. Let's take this to DM so we can better assist you. [URL]"
+  },
+  {
+    "id": 33400,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Anyone else? What’s going on here? [URL]",
+    "historical_resolution": "We'd like to help. What device are you using, and which OS version does it have installed?"
+  },
+  {
+    "id": 33404,
+    "intent": "software_update_glitch",
+    "customer_query": "iPhone 6s iOS 11",
+    "historical_resolution": "We’d love to help further. To start, please send us a DM. [URL]"
+  },
+  {
+    "id": 33409,
+    "intent": "battery_power_hardware",
+    "customer_query": "I hate it !! The entire format changed! When I receive a call I have to say hello 2x no one hears me the first time battery dies quick 😡",
+    "historical_resolution": "We want to help! Please join us in DM to get started troubleshooting. [URL]"
+  },
+  {
+    "id": 33415,
+    "intent": "software_update_glitch",
+    "customer_query": "is there some problem in latest iOS upgrade. Many applications are getting disconnected if phine is locked #whtsapp",
+    "historical_resolution": "Send us a DM and let us know what version of iOS you're running. We'll go from there. [URL]"
+  },
+  {
+    "id": 34463,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Please I just paused my music to come on to twitter to tell you (still didn’t close the music app). And it forgot my place I only had it paused for about 10 min max... and when I pushed the play button on my headphones it started playing a completely random song.",
+    "historical_resolution": "If you're running into issues with Apple Music playback, we'd like to help you out. Please tell us what type of device you use. Also, please let us know what version of the iOS / macOS software you currently have installed. [URL]"
+  },
+  {
+    "id": 34578,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "So one has to go back to call log. Click that message icon again and then a chat for that particular number opens up.",
+    "historical_resolution": "Thanks for bringing this to our attention. Can you tell us which iOS version this is occurring on please?"
+  },
+  {
+    "id": 34582,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Basically for a chat to be opened from call log, the message app should be opened/running in background. Otherwise, it takes twice.",
+    "historical_resolution": "We'd like to take a closer look at what's happening. Send us a DM and we'll meet up with you there. [URL]"
+  },
+  {
+    "id": 34584,
+    "intent": "account_security_icloud",
+    "customer_query": "The latest version of iTunes for Windows keeps asking for my password and sometimes gets stuck in a loop.",
+    "historical_resolution": "We'd like to help. Please confirm the iTunes version number you have installed now to get started."
+  },
+  {
+    "id": 34588,
+    "intent": "battery_power_hardware",
+    "customer_query": "After iPhone update, my battery dies quicker than it charges when using my sleep/alarm app. On 1% when my alarm woke me 😮😡",
+    "historical_resolution": "Send us a DM and let us know what version of iOS 11 you're running. We'll go from there. [URL]"
+  },
+  {
+    "id": 34594,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I managed to get LTE last night, spent some time until the connection was fast. Thought the issue solved by itself, but it happened again.",
+    "historical_resolution": "Got it. Let's go ahead and meet in DM and we'll continue this from there. [URL]"
+  },
+  {
+    "id": 34596,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "iMessage-Aktivierung schlägt mal wieder fehl…",
+    "historical_resolution": "We offer support via Twitter in English. Contact us for help in your preferred language here: [URL]"
+  },
+  {
+    "id": 34599,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "iMessage stopped working and won’t activate anymore—is that a problem on your side?",
+    "historical_resolution": "We're not showing any issues on our end: [URL] Has it been over 24 hours since you tried activating?"
+  },
+  {
+    "id": 34602,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "I don’t think so—it did work this morning, has been deactivated for whatever reason, and now it won’t activate… 🤔",
+    "historical_resolution": "Thank you for providing us with that information. Let's look further into this issue. Please DM us the device you are using. [URL]"
+  },
+  {
+    "id": 34603,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Nachrichten werden bei mir auch nicht mehr zugestellt",
+    "historical_resolution": "We offer support via Twitter in English. Contact us for help in your preferred language here: [URL]"
+  },
+  {
+    "id": 34605,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "How can i solve this problem? [URL]",
+    "historical_resolution": "Let's have a look at this. Please DM us here: [URL]"
+  },
+  {
+    "id": 34607,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Is there any possibility to combine two Apple-IDs?",
+    "historical_resolution": "Let's look into your options together. Let us know in DM a bit more about what you're wanting to do. [URL]"
+  },
+  {
+    "id": 34609,
+    "intent": "software_update_glitch",
+    "customer_query": "Oh great, iMessage not working after the latest iOS update. 😐",
+    "historical_resolution": "Thanks for reaching out. DM the specific issue you are seeing with Messages to get started. [URL]"
+  },
+  {
+    "id": 34613,
+    "intent": "software_update_glitch",
+    "customer_query": "Hi ! #TimeMachine still not working with #HighSierra update",
+    "historical_resolution": "Let's work together in DM to investigate what's going on with your Time Machine. [URL]"
+  },
+  {
+    "id": 34615,
+    "intent": "software_update_glitch",
+    "customer_query": "his new ios 11.0 I have to restart my phone at least four times a day because it is blocked by everything",
+    "historical_resolution": "We want to help get your iPhone working properly. Which exact iOS version and iPhone are you using?"
+  },
+  {
+    "id": 34617,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Hmm… doubt Ill be able to close the Move ring 25770 times in november. [URL]",
+    "historical_resolution": "We'd like to know more about what you're seeing. DM us with what type of Apple Watch you're using. [URL]"
+  },
+  {
+    "id": 34619,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "When searching fot \"GOT\" Apple TV app shows Cmore but not Nordic, even tho I only have HBO installed.",
+    "historical_resolution": "Let's get you in touch with our Apple TV experts so they can assist further. Reach out here: [URL]"
+  },
+  {
+    "id": 34621,
+    "intent": "battery_power_hardware",
+    "customer_query": "After iOS11 the battery is draining very fast. Request you to look into it.",
+    "historical_resolution": "We'd like to help. Could you Direct Message us and tell us what iOS version you're on currently? [URL]"
+  },
+  {
+    "id": 34623,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Is there a way to merge two AppleID’s, so I can use all bought items in one ID and delete the other?",
+    "historical_resolution": "Great question! Our account security team is best suited to help you. You can reach them directly here: [URL]"
+  },
+  {
+    "id": 34625,
+    "intent": "battery_power_hardware",
+    "customer_query": "charging my phone but it’s reducing the battery charge?? Help?!! [URL]",
+    "historical_resolution": "We'd like to help you with this. Are you using the charging cable that came with your iPhone? Have you tried another cable?"
+  },
+  {
+    "id": 34628,
+    "intent": "software_update_glitch",
+    "customer_query": "Thanks for your response it’s happened a few times now since the new iOS update - I have now unplugged",
+    "historical_resolution": "If this issue reappears, we'd like you to notice how you're charging and if the behavior changes if you switch cables."
+  },
+  {
+    "id": 34631,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Will do thanks 👍",
+    "historical_resolution": "You're welcome. Have a great rest of your day."
+  },
+  {
+    "id": 34632,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "This will stay at this time throughout the whole song so I have no idea how long is left [URL]",
+    "historical_resolution": "We'd be happy to look into this with you. Please reach out to us via DM and we'll get started. [URL]"
+  },
+  {
+    "id": 34636,
+    "intent": "software_update_glitch",
+    "customer_query": "is there a way I can uninstall iOS 11 and go back to 10?",
+    "historical_resolution": "Keeping your software up to date is one of the most important things you can do to maintain your Apple product's security."
+  },
+  {
+    "id": 34639,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Now my rear camera is not working… and my phone needs to cool down apparently even tho it feels kool to me… 😠",
+    "historical_resolution": "Hi. We're here for you. DM us and tell us the exact version of iOS you're running. We'll go from there. [URL]"
+  },
+  {
+    "id": 34644,
+    "intent": "physical_damage_repair",
+    "customer_query": "My 6 month old IPhone 6 touch screen is unresponsive. please help!",
+    "historical_resolution": "We're happy to help. What version of iOS are you currently running? Find that in Settings > General > About."
+  },
+  {
+    "id": 34647,
+    "intent": "physical_damage_repair",
+    "customer_query": "It's 10.3.3. Although I'm convinced it's a screen issue rather than a software one.",
+    "historical_resolution": "Send us a DM and let us know your country. We'll take a closer look together. [URL]"
+  },
+  {
+    "id": 34648,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "why on my Apple Watch series 3 when I start the activity tracker on stair stepper it shows 0 total and active calories?",
+    "historical_resolution": "Happy to help you with this. Can you tell us which iOS and watchOS version you are currently using please?"
+  },
+  {
+    "id": 34651,
+    "intent": "software_update_glitch",
+    "customer_query": "The latest update from yesterday",
+    "historical_resolution": "DM us using the link below. We'll look into things from there. [URL]"
+  },
+  {
+    "id": 34652,
+    "intent": "software_update_glitch",
+    "customer_query": "Alguém sentiu um consumo maior com o novo IOS ou a está de sacanagem comigo???",
+    "historical_resolution": "Since our Twitter support is available in English, get help at [URL] or join [URL]"
+  },
+  {
+    "id": 34657,
+    "intent": "software_update_glitch",
+    "customer_query": "Thanks for getting back to me. 38mm Watch S2 and iPhone SE both have the latest updates.",
+    "historical_resolution": "Got it. Send us a DM with the country you're currently located in, and we'll continue from there. [URL]"
+  },
+  {
+    "id": 34658,
+    "intent": "software_update_glitch",
+    "customer_query": "I thought this update would fix the problem with appstore/itunes payments. I cant open some apps , i cant update any and i cant download any",
+    "historical_resolution": "We'd be happy to look into what's going on. Which device and iOS version are you using?"
+  },
+  {
+    "id": 34660,
+    "intent": "software_update_glitch",
+    "customer_query": "I am using Iphone 7 and iOS 11.1",
+    "historical_resolution": "DM us your country, and we'll continue working there. [URL]"
+  },
+  {
+    "id": 34661,
+    "intent": "general_feedback_inquiry",
+    "customer_query": "Thanks , for following up on the camera issue. It is highly appreciated. Hope you will continue to support in the same way.",
+    "historical_resolution": "Our pleasure! Let us know if you have further questions & we'll be glad to help."
+  }
+]
